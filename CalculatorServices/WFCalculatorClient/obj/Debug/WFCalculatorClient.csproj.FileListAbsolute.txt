@@ -1,0 +1,9 @@
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\WFCalculatorClient\bin\Debug\WFCalculatorClient.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\WFCalculatorClient\bin\Debug\WFCalculatorClient.exe
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\WFCalculatorClient\bin\Debug\WFCalculatorClient.pdb
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\WFCalculatorClient\obj\Debug\WFCalculatorClient.Form1.resources
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\WFCalculatorClient\obj\Debug\WFCalculatorClient.Properties.Resources.resources
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\WFCalculatorClient\obj\Debug\WFCalculatorClient.csproj.GenerateResource.Cache
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\WFCalculatorClient\obj\Debug\WFCalculatorClient.exe
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\WFCalculatorClient\obj\Debug\WFCalculatorClient.pdb
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\WFCalculatorClient\obj\Debug\WFCalculatorClient.csprojResolveAssemblyReference.cache

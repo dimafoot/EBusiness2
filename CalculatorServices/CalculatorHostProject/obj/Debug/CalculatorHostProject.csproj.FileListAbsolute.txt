@@ -1,0 +1,8 @@
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorHostProject\obj\Debug\CalculatorHostProject.csprojResolveAssemblyReference.cache
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorHostProject\bin\Debug\App.config
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorHostProject\bin\Debug\CalculatorHostProject.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorHostProject\bin\Debug\CalculatorHostProject.exe
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorHostProject\bin\Debug\CalculatorHostProject.pdb
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorHostProject\bin\Debug\CalculatorService.exe
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorHostProject\obj\Debug\CalculatorHostProject.exe
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorHostProject\obj\Debug\CalculatorHostProject.pdb

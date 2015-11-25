@@ -1,0 +1,7 @@
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorService\bin\Debug\CalculatorService.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorService\bin\Debug\CalculatorService.exe
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorService\bin\Debug\CalculatorService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorService\obj\Debug\CalculatorService.exe
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorService\obj\Debug\CalculatorService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorService\bin\Debug\App.config
+C:\Users\afersys\Documents\MLAMGHARI\CalculatorServices\CalculatorService\obj\Debug\CalculatorService.csprojResolveAssemblyReference.cache

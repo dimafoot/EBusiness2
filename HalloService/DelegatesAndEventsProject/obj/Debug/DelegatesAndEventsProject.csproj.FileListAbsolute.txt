@@ -1,0 +1,6 @@
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\DelegatesAndEventsProject\bin\Debug\DelegatesAndEventsProject.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\DelegatesAndEventsProject\bin\Debug\DelegatesAndEventsProject.exe
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\DelegatesAndEventsProject\bin\Debug\DelegatesAndEventsProject.pdb
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\DelegatesAndEventsProject\obj\Debug\DelegatesAndEventsProject.exe
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\DelegatesAndEventsProject\obj\Debug\DelegatesAndEventsProject.pdb
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\DelegatesAndEventsProject\obj\Debug\DelegatesAndEventsProject.csprojResolveAssemblyReference.cache

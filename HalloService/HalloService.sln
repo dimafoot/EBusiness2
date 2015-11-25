@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiduleService", "BiduleService\BiduleService.csproj", "{72E321BC-12DF-4B31-A86A-E9A7EBFDED36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiduleServiceHost", "BiduleServiceHost\BiduleServiceHost.csproj", "{79F65990-FFA2-439D-806F-0F78DFED20A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiduleServoceWebClient", "BiduleServoceWebClient\BiduleServoceWebClient.csproj", "{25D810B2-DACB-4D09-9BAC-2D90A4953543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogProgProject", "..\..\..\Visual Studio 2015\Projects\ProjetsDotNet\LogProgProject\LogProgProject.csproj", "{664CB8F2-9B11-422F-9515-081DCDFB6271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndEventsProject", "DelegatesAndEventsProject\DelegatesAndEventsProject.csproj", "{1388E2DE-D29D-45D2-916D-345AE1E22D71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiduleWindowsServiceHost", "BiduleWindowsServiceHost\BiduleWindowsServiceHost.csproj", "{6EA0B149-0716-443E-AB18-C7E2479773F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72E321BC-12DF-4B31-A86A-E9A7EBFDED36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E321BC-12DF-4B31-A86A-E9A7EBFDED36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E321BC-12DF-4B31-A86A-E9A7EBFDED36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E321BC-12DF-4B31-A86A-E9A7EBFDED36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F65990-FFA2-439D-806F-0F78DFED20A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F65990-FFA2-439D-806F-0F78DFED20A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F65990-FFA2-439D-806F-0F78DFED20A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F65990-FFA2-439D-806F-0F78DFED20A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25D810B2-DACB-4D09-9BAC-2D90A4953543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25D810B2-DACB-4D09-9BAC-2D90A4953543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25D810B2-DACB-4D09-9BAC-2D90A4953543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25D810B2-DACB-4D09-9BAC-2D90A4953543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664CB8F2-9B11-422F-9515-081DCDFB6271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664CB8F2-9B11-422F-9515-081DCDFB6271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664CB8F2-9B11-422F-9515-081DCDFB6271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664CB8F2-9B11-422F-9515-081DCDFB6271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1388E2DE-D29D-45D2-916D-345AE1E22D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1388E2DE-D29D-45D2-916D-345AE1E22D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1388E2DE-D29D-45D2-916D-345AE1E22D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1388E2DE-D29D-45D2-916D-345AE1E22D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA0B149-0716-443E-AB18-C7E2479773F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA0B149-0716-443E-AB18-C7E2479773F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA0B149-0716-443E-AB18-C7E2479773F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA0B149-0716-443E-AB18-C7E2479773F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

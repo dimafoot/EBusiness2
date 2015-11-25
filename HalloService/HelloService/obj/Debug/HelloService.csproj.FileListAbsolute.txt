@@ -1,0 +1,5 @@
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloService\bin\Debug\HelloService.dll.config
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloService\bin\Debug\HelloService.dll
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloService\bin\Debug\HelloService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloService\obj\Debug\HelloService.dll
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloService\obj\Debug\HelloService.pdb

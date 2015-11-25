@@ -1,0 +1,5 @@
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloWindowsService\bin\Debug\HelloWindowsService.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloWindowsService\bin\Debug\HelloWindowsService.exe
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloWindowsService\bin\Debug\HelloWindowsService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloWindowsService\obj\Debug\HelloWindowsService.exe
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloWindowsService\obj\Debug\HelloWindowsService.pdb

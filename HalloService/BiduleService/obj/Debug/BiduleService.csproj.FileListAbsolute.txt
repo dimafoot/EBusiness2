@@ -1,0 +1,15 @@
+c:\users\dskat\documents\visual studio 2015\Projects\HalloService\BiduleService\bin\Debug\BiduleService.dll.config
+c:\users\dskat\documents\visual studio 2015\Projects\HalloService\BiduleService\bin\Debug\BiduleService.dll
+c:\users\dskat\documents\visual studio 2015\Projects\HalloService\BiduleService\bin\Debug\BiduleService.pdb
+c:\users\dskat\documents\visual studio 2015\Projects\HalloService\BiduleService\obj\Debug\BiduleService.csprojResolveAssemblyReference.cache
+c:\users\dskat\documents\visual studio 2015\Projects\HalloService\BiduleService\obj\Debug\BiduleService.dll
+c:\users\dskat\documents\visual studio 2015\Projects\HalloService\BiduleService\obj\Debug\BiduleService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleService\bin\Debug\BiduleService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleService\bin\Debug\LogProgProject.exe
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleService\bin\Debug\LogProgProject.pdb
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleService\obj\Debug\BiduleService.csprojResolveAssemblyReference.cache
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleService\obj\Debug\BiduleService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleService\bin\Debug\BiduleService.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleService\bin\Debug\BiduleService.exe
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleService\obj\Debug\BiduleService.exe
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleService\bin\Debug\app.config

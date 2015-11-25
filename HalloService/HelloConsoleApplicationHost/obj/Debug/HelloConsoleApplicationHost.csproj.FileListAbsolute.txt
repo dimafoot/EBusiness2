@@ -1,0 +1,8 @@
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloConsoleApplicationHost\bin\Debug\HelloConsoleApplicationHost.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloConsoleApplicationHost\bin\Debug\HelloConsoleApplicationHost.exe
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloConsoleApplicationHost\bin\Debug\HelloConsoleApplicationHost.pdb
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloConsoleApplicationHost\bin\Debug\HelloService.dll
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloConsoleApplicationHost\bin\Debug\HelloService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloConsoleApplicationHost\obj\Debug\HelloConsoleApplicationHost.csprojResolveAssemblyReference.cache
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloConsoleApplicationHost\obj\Debug\HelloConsoleApplicationHost.exe
+C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\HelloConsoleApplicationHost\obj\Debug\HelloConsoleApplicationHost.pdb
