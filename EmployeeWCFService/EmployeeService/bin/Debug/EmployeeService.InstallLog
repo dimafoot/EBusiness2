@@ -1,0 +1,181 @@
+﻿Installation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.dll'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.dll
+   logtoconsole = 
+Installation du service EmployeeWcfService en cours...
+Le service EmployeeWcfService a été installé avec succès.
+Création d'une source EventLog EmployeeWcfService dans le journal Application...
+Validation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.dll'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.dll
+   logtoconsole = 
+Désinstallation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+Suppression de la source EventLog EmployeeWcfService.
+Le service EmployeeWcfService est en cours de suppression du système...
+Le service EmployeeWcfService a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Installation du service EmployeeWcfService en cours...
+Création d'une source EventLog EmployeeWcfService dans le journal Application...
+Restauration de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Restauration de l'état précédent du journal des événements pour la source EmployeeWcfService.
+Installation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Installation du service EmployeeWcfService en cours...
+Création d'une source EventLog EmployeeWcfService dans le journal Application...
+Restauration de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Restauration de l'état précédent du journal des événements pour la source EmployeeWcfService.
+Désinstallation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+Suppression de la source EventLog EmployeeWcfService.
+Avertissement : la source EmployeeWcfService n'est pas inscrite sur l'ordinateur local.
+Le service EmployeeWcfService est en cours de suppression du système...
+Le service EmployeeWcfService a été retiré avec succès du système.
+Désinstallation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.dll'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.dll
+Suppression de la source EventLog EmployeeWcfService.
+Avertissement : la source EmployeeWcfService n'est pas inscrite sur l'ordinateur local.
+Le service EmployeeWcfService est en cours de suppression du système...
+Le service EmployeeWcfService a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Installation du service EmployeeWcfService en cours...
+Le service EmployeeWcfService a été installé avec succès.
+Création d'une source EventLog EmployeeWcfService dans le journal Application...
+Validation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Désinstallation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+Suppression de la source EventLog EmployeeWcfService.
+Le service EmployeeWcfService est en cours de suppression du système...
+Le service EmployeeWcfService a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Installation du service EmployeeWcfService en cours...
+Le service EmployeeWcfService a été installé avec succès.
+Création d'une source EventLog EmployeeWcfService dans le journal Application...
+Validation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Désinstallation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+Suppression de la source EventLog EmployeeWcfService.
+Le service EmployeeWcfService est en cours de suppression du système...
+Le service EmployeeWcfService a été retiré avec succès du système.
+Désinstallation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+Suppression de la source EventLog EmployeeWcfService.
+Avertissement : la source EmployeeWcfService n'est pas inscrite sur l'ordinateur local.
+Le service EmployeeWcfService est en cours de suppression du système...
+Une exception s'est produite lors de la désinstallation du programme d'installation System.ServiceProcess.ServiceInstaller.
+System.ComponentModel.Win32Exception: Le service spécifié n’existe pas en tant que service installé
+Une exception s'est produite lors de la désinstallation. Cette exception est ignorée et la désinstallation se poursuit. Cependant, l'application ne sera pas totalement désinstallée une fois la désinstallation terminée.
+Installation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Installation du service EmployeeWcfService en cours...
+Le service EmployeeWcfService a été installé avec succès.
+Création d'une source EventLog EmployeeWcfService dans le journal Application...
+Validation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Installation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Installation du service EmployeeWcfService en cours...
+Création d'une source EventLog EmployeeWcfService dans le journal Application...
+Restauration de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Restauration de l'état précédent du journal des événements pour la source EmployeeWcfService.
+Désinstallation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   logtoconsole = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+Suppression de la source EventLog EmployeeWcfService.
+Le service EmployeeWcfService est en cours de suppression du système...
+Le service EmployeeWcfService a été retiré avec succès du système.
+Installation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
+Installation du service EmployeeWcfService en cours...
+Le service EmployeeWcfService a été installé avec succès.
+Création d'une source EventLog EmployeeWcfService dans le journal Application...
+Validation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\EmployeeService\bin\Debug\EmployeeService.exe
+   logtoconsole = 
