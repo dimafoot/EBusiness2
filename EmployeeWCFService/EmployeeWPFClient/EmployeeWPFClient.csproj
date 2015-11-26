@@ -67,10 +67,10 @@
     </ApplicationDefinition>
     <Compile Include="Commands\GetEmployeeCmd.cs" />
     <Compile Include="Commands\SaveEmployeeCmd.cs" />
-    <Compile Include="Commands\WindowsLoadCmd.cs" />
+    <Compile Include="Commands\GetAllEmployeesCmd.cs" />
     <Compile Include="Models\EmployeeObj.cs" />
-    <Compile Include="Models\FullTimeEmployee.cs" />
-    <Compile Include="Models\PartTimeEmployee.cs" />
+    <Compile Include="Models\FullTimeEmployeeObj.cs" />
+    <Compile Include="Models\PartTimeEmployeeObj.cs" />
     <Compile Include="Service References\ServiceReference\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

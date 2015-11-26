@@ -12,7 +12,7 @@ using System.Windows.Input;
 
 namespace EmployeeWPFClient.Commands
 {
-    public class WindowsLoadCmd : ICommand
+    public class GetAllEmployeesCmd : ICommand
     {
         private MainWindowViewModel _source;
 
@@ -24,7 +24,7 @@ namespace EmployeeWPFClient.Commands
             set { _source = value; }
         }
 
-        public WindowsLoadCmd(MainWindowViewModel source)
+        public GetAllEmployeesCmd(MainWindowViewModel source)
         {
             if (source == null)
             {
@@ -41,7 +41,27 @@ namespace EmployeeWPFClient.Commands
 
         public void Execute(object parameter)
         {
-            
+            try
+            {
+                _source.EmployeeList = new ObservableCollection<EmployeeObj>();
+
+                IEnumerable emploeeList = _source.EmployeeService.GetAllEmployees();
+
+                foreach (Employee item in emploeeList)
+                {
+                    _source.EmployeeList.Add(new EmployeeObj
+                    {
+                        Id = item.Id,
+                        Name = item.Name,
+                        Gender = item.Gender,
+                        Dateofb = item.Dateofb
+                    });
+                }
+            }
+            catch (Exception ex)
+            {
+                _source.UserNotification = ex.Message;
+            }
         }
     }
 

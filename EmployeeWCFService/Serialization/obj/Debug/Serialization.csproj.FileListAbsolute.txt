@@ -7,6 +7,6 @@ C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\Serialization\obj\Debug\
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Serialization\bin\Debug\Serialization.exe.config
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Serialization\bin\Debug\Serialization.exe
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Serialization\bin\Debug\Serialization.pdb
-C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Serialization\obj\Debug\Serialization.csprojResolveAssemblyReference.cache
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Serialization\obj\Debug\Serialization.exe
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Serialization\obj\Debug\Serialization.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Serialization\obj\Debug\Serialization.csprojResolveAssemblyReference.cache

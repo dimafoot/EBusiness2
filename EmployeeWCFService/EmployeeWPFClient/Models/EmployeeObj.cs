@@ -12,10 +12,13 @@ namespace EmployeeWPFClient.Models
         public string Name { get; set; }
         public string Gender { get; set; }
         public DateTime Dateofb { get; set; }
-        public EmployeeType Type { get; set; }
+        public EmployeeTypeObj Type { get; set; }
+        //public int AnnualSalary { get; set; }
+        //public int HourlyPay { get; set; }
+        //public int HoursWorked { get; set; }
     }
 
-    public enum EmployeeType
+    public enum EmployeeTypeObj
     {
         FullTimeEmployee = 1,
         PartTimeEmployee = 2

@@ -40,14 +40,45 @@ namespace EmployeeWPFClient.Commands
             {
                 Employee employee = _source.EmployeeService.GetEmployeeDB(_source.Id);
 
-                _source.Employee = new EmployeeObj()
+                if (employee.Type.ToString() == "FullTimeEmployee")
                 {
-                    Id = employee.Id,
-                    Name = employee.Name,
-                    Gender = employee.Gender,
-                    Dateofb = employee.Dateofb,
-                    Type = Models.EmployeeType.FullTimeEmployee
-                };
+                    _source.Employee = new FullTimeEmployeeObj()
+                    {
+                        Id = employee.Id,
+                        Name = employee.Name,
+                        Gender = employee.Gender,
+                        Dateofb = employee.Dateofb,
+                        Type = (EmployeeTypeObj)employee.Type, 
+                        AnnualSalary = ((FullTimeEmployee)employee).AnnualSalary
+                    };
+
+                    _source.FeIsEnabled = "Visible";
+                    _source.PeIsEnabled = "Hidden";
+
+                    _source.SelectedType = 1;
+                }
+                else if (employee.Type.ToString() == "PartTimeEmployee")
+                {
+                    _source.Employee = new PartTimeEmployeeObj()
+                    {
+                        Id = employee.Id,
+                        Name = employee.Name,
+                        Gender = employee.Gender,
+                        Dateofb = employee.Dateofb,
+                        Type = (EmployeeTypeObj)employee.Type,
+                        HourlyPay = ((PartTimeEmployee)employee).HourlyPay,
+                        HoursWorked = ((PartTimeEmployee)employee).HoursWorked
+                    };
+
+                    _source.PeIsEnabled = "Visible";
+                    _source.FeIsEnabled = "Hidden";
+                    _source.SelectedType = 2;
+                }
+                else
+                {
+                    _source.SelectedType = 0;
+                    _source.UserNotification = "Please select an employee";
+                }
 
                 _source.UserNotification = "Employee retrieved";
             }

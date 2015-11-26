@@ -6,6 +6,6 @@ C:\Users\afersys\Documents\MLAMGHARI\EmployeeWCFService\Loguer\obj\Debug\Loguer.
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\bin\Debug\Loguer.exe.config
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\bin\Debug\Loguer.exe
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\bin\Debug\Loguer.pdb
-C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\obj\Debug\Loguer.csprojResolveAssemblyReference.cache
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\obj\Debug\Loguer.exe
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\obj\Debug\Loguer.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\obj\Debug\Loguer.csprojResolveAssemblyReference.cache

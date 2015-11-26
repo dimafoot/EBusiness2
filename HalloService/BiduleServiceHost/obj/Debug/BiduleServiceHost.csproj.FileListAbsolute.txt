@@ -19,3 +19,6 @@ C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleServiceH
 C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleServiceHost\obj\Debug\BiduleServiceHost.csproj.GenerateResource.Cache
 C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleServiceHost\bin\Debug\BiduleService.exe
 C:\Users\afersys\Documents\MLAMGHARI\HalloServiceWCF\HalloService\BiduleServiceHost\bin\Debug\app.config
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\HalloService\BiduleServiceHost\bin\Debug\BiduleServiceHost.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\HalloService\BiduleServiceHost\obj\Debug\BiduleServiceHost.exe
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\HalloService\BiduleServiceHost\obj\Debug\BiduleServiceHost.pdb

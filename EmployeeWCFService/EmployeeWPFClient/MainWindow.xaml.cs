@@ -34,10 +34,12 @@ namespace EmployeeWPFClient
                 {
                     _vm.EmployeeList.Add(new EmployeeObj
                     {
-                        Name = item.Name
+                        Id = item.Id,
+                        Name = item.Name,
+                        Gender = item.Gender,
+                        Dateofb = item.Dateofb
                     });
                 }
-
             }
             catch (Exception ex)
             {

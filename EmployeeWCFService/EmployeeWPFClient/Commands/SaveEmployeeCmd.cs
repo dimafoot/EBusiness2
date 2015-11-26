@@ -1,4 +1,5 @@
-﻿using EmployeeWPFClient.ServiceReference;
+﻿using EmployeeWPFClient.Models;
+using EmployeeWPFClient.ServiceReference;
 using EmployeeWPFClient.ViewModel;
 using System;
 using System.Collections.Generic;
@@ -40,30 +41,48 @@ namespace EmployeeWPFClient.Commands
         {
             try
             {
-                IEmployeeService client = new EmployeeServiceClient();
-
-
-                client.SaveEmployee(new Employee
+                if (_source.SelectedType == 1)
                 {
-                    Id = _source.Employee.Id,
-                    Name = _source.Employee.Name,
-                    Gender = _source.Employee.Gender,
-                    Dateofb = _source.Employee.Dateofb
-                });
+                    Employee employee = new Employee();
 
-                Employee employee = client.GetEmployeeDB(_source.Id);
+                    employee = new FullTimeEmployee
+                    {
+                        Id = _source.Employee.Id,
+                        Name = _source.Employee.Name,
+                        Gender = _source.Employee.Gender,
+                        Dateofb = _source.Employee.Dateofb,
+                        Type = EmployeeType.FullTimeEmployee,
+                        AnnualSalary = ((FullTimeEmployeeObj)_source.Employee).AnnualSalary
+                    };
 
-
-                _source.Employee = new Models.EmployeeObj()
+                    _source.EmployeeService.SaveEmployee(employee);
+                    _source.UserNotification = "Full Time Employee saved";
+                    _source.GetAllEmployees();
+                }
+                else if (_source.SelectedType == 2)
                 {
-                    Id = employee.Id,
-                    Name = employee.Name,
-                    Gender = employee.Gender,
-                    Dateofb = employee.Dateofb,
-                    Type = Models.EmployeeType.FullTimeEmployee
-                };
+                    Employee employee = new Employee();
 
-                _source.UserNotification = "Employee retrieved";
+                    employee = new PartTimeEmployee
+                    {
+                        Id = _source.Employee.Id,
+                        Name = _source.Employee.Name,
+                        Gender = _source.Employee.Gender,
+                        Dateofb = _source.Employee.Dateofb,
+                        Type = EmployeeType.PartTimeEmployee,
+                        HourlyPay = ((PartTimeEmployeeObj)_source.Employee).HourlyPay,
+                        HoursWorked = ((PartTimeEmployeeObj)_source.Employee).HoursWorked
+                    };
+
+                    _source.EmployeeService.SaveEmployee(employee);
+                    _source.UserNotification = "Part Time Employee saved";
+                    _source.GetAllEmployees();
+                }
+                else
+                {
+                    _source.UserNotification = "Please select an employee";
+                }
+
             }
             catch (Exception ex)
             {

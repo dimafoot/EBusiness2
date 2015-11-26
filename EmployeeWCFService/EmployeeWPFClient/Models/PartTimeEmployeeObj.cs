@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeWPFClient.Models
 {
-    public class PartTimeEmployee : EmployeeObj
+    public class PartTimeEmployeeObj : EmployeeObj
     {
         public int HourlyPay { get; set; }
 

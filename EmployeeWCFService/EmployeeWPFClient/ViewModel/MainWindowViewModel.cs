@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
+using System;
 
 namespace EmployeeWPFClient.ViewModel
 {
@@ -13,13 +14,23 @@ namespace EmployeeWPFClient.ViewModel
 
         #region champs
 
-        private int _id = 1;
+        private int _id = 0;
         private EmployeeObj _employee;
         private string _userNotification;
+        private int _selectedType = 0;
+
+        private string _feIsEnabled = "Hidden";
+        private string _peIsEnabled = "Hidden";
+
+
+
+
 
         private ObservableCollection<EmployeeObj> _employeeList;
 
         IEmployeeService _employeeService;
+
+        private EmployeeObj _selectedEmployee;
 
 
         #endregion
@@ -75,6 +86,52 @@ namespace EmployeeWPFClient.ViewModel
 
         }
 
+        public EmployeeObj SelectedEmployee
+        {
+            get
+            {
+                return _selectedEmployee;
+            }
+
+            set
+            {
+                _selectedEmployee = value; OnPropertyChanged("SelectedEmployee");
+
+                if (SelectedEmployee != null)
+                {
+                    Id = SelectedEmployee.Id;
+                }
+                GetEmployeeCmd.Execute(this);
+            }
+        }
+
+        public int SelectedType
+        {
+            get
+            {
+                return _selectedType;
+            }
+
+            set
+            {
+                _selectedType = value; OnPropertyChanged("SelectedType");
+            }
+        }
+
+        public string FeIsEnabled
+        {
+            get {  return _feIsEnabled; }
+
+            set {  _feIsEnabled = value; OnPropertyChanged("FeIsEnabled"); }
+        }
+
+        public string PeIsEnabled
+        {
+            get { return _peIsEnabled; }
+
+            set { _peIsEnabled = value; OnPropertyChanged("PeIsEnabled"); }
+        }
+
         #endregion
 
 
@@ -84,10 +141,15 @@ namespace EmployeeWPFClient.ViewModel
         {
             GetEmployeeCmd = new GetEmployeeCmd(this);
             SaveEmployeeCmd = new SaveEmployeeCmd(this);
-            WindowsLoadCmd = new WindowsLoadCmd(this);
+            WindowsLoadCmd = new GetAllEmployeesCmd(this);
 
             _employeeService = new EmployeeServiceClient();
 
+        }
+
+        internal void GetAllEmployees()
+        {
+            WindowsLoadCmd.Execute(this);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
