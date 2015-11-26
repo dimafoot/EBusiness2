@@ -75,6 +75,52 @@ namespace EmployeeService
 
         }
 
+        public List<Employee> GetAllEmployeesDummy()
+        {
+            try
+            {
+                List<Employee> listEmployees = new List<Employee>();
+
+                LogDeb.LogException("EmployeeService", "GetAllEmployees", "GetAllEmployees Debut Ok");
+
+                Employee employee = null;
+
+
+                employee = new FullTimeEmployee
+                            {
+                                Id = 1,
+                                Name = "Name Dummy 1",
+                                Gender = "M",
+                                Dateofb = Convert.ToDateTime("21/10/1990"),
+                                AnnualSalary = 35000,
+                                Type = EmployeeType.FullTimeEmployee
+                            };
+                            listEmployees.Add(employee);
+                 
+                 employee = new PartTimeEmployee
+                            {
+                                 Id = 2,
+                                 Name = "Name Dummy 2",
+                                 Gender = "M",
+                                 Dateofb = Convert.ToDateTime("21/10/1990"),
+                                 HourlyPay = 150,
+                                 HoursWorked = 2500,
+                                 Type = EmployeeType.PartTimeEmployee
+                            };
+                            listEmployees.Add(employee);
+
+
+                LogDeb.LogException("EmployeeService", "GetAllEmployees", "GetAllEmployees End Ok");
+
+                return listEmployees;
+            }
+            catch (Exception ex)
+            {
+                LogDeb.LogException("EmployeeService", "GetEmployee", "Error :" + ex.Message);
+                throw ex;
+            }
+        }
+
         public Employee GetEmployeeDB(int Id)
         {
             try
@@ -150,6 +196,45 @@ namespace EmployeeService
             //    return null;
             //}
 
+        }
+
+        public Employee GetEmployeeDBDummy(int Id)
+        {
+            try
+            {
+                LogDeb.LogException("EmployeeService", "GetEmployeeDBDummy", "GetEmployee Debut Ok");
+                Employee employee = null;
+
+                //employee = new FullTimeEmployee
+                //            {
+                //                Id = 2,
+                //                Name = "Name Dummy 2",
+                //                Gender = "M",
+                //                Dateofb = Convert.ToDateTime("21/10/1988"),
+                //                AnnualSalary = 1900,
+                //                Type = EmployeeType.FullTimeEmployee
+                //            };
+
+                 employee = new PartTimeEmployee
+                            {
+                                Id = 1,
+                                Name = "Name Dummy 1",
+                                Gender = "M",
+                                Dateofb = Convert.ToDateTime("21/10/1988"),
+                                HourlyPay = 15,
+                                HoursWorked = 2500,
+                                Type = EmployeeType.PartTimeEmployee
+                            };
+
+                LogDeb.LogException("EmployeeService", "GetEmployee", "Employee : " + employee.Id + " - " + employee.Name + " - " + employee.Type + " ");
+                LogDeb.LogException("EmployeeService", "GetEmployee", "GetEmployee End Ok");
+                return employee;
+            }
+            catch (Exception ex)
+            {
+                LogDeb.LogException("EmployeeService", "GetEmployee", "Error :" + ex.Message);
+                throw ex;
+            }
         }
 
         public void SaveEmployee(Employee Employee)

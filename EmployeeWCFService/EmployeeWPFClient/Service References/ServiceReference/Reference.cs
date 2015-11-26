@@ -280,6 +280,18 @@ namespace EmployeeWPFClient.ServiceReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetAllEmployees", ReplyAction="http://tempuri.org/IEmployeeService/GetAllEmployeesResponse")]
         System.Threading.Tasks.Task<EmployeeWPFClient.ServiceReference.Employee[]> GetAllEmployeesAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetEmployeeDBDummy", ReplyAction="http://tempuri.org/IEmployeeService/GetEmployeeDBDummyResponse")]
+        EmployeeWPFClient.ServiceReference.Employee GetEmployeeDBDummy(int Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetEmployeeDBDummy", ReplyAction="http://tempuri.org/IEmployeeService/GetEmployeeDBDummyResponse")]
+        System.Threading.Tasks.Task<EmployeeWPFClient.ServiceReference.Employee> GetEmployeeDBDummyAsync(int Id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetAllEmployeesDummy", ReplyAction="http://tempuri.org/IEmployeeService/GetAllEmployeesDummyResponse")]
+        EmployeeWPFClient.ServiceReference.Employee[] GetAllEmployeesDummy();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetAllEmployeesDummy", ReplyAction="http://tempuri.org/IEmployeeService/GetAllEmployeesDummyResponse")]
+        System.Threading.Tasks.Task<EmployeeWPFClient.ServiceReference.Employee[]> GetAllEmployeesDummyAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -331,6 +343,22 @@ namespace EmployeeWPFClient.ServiceReference {
         
         public System.Threading.Tasks.Task<EmployeeWPFClient.ServiceReference.Employee[]> GetAllEmployeesAsync() {
             return base.Channel.GetAllEmployeesAsync();
+        }
+        
+        public EmployeeWPFClient.ServiceReference.Employee GetEmployeeDBDummy(int Id) {
+            return base.Channel.GetEmployeeDBDummy(Id);
+        }
+        
+        public System.Threading.Tasks.Task<EmployeeWPFClient.ServiceReference.Employee> GetEmployeeDBDummyAsync(int Id) {
+            return base.Channel.GetEmployeeDBDummyAsync(Id);
+        }
+        
+        public EmployeeWPFClient.ServiceReference.Employee[] GetAllEmployeesDummy() {
+            return base.Channel.GetAllEmployeesDummy();
+        }
+        
+        public System.Threading.Tasks.Task<EmployeeWPFClient.ServiceReference.Employee[]> GetAllEmployeesDummyAsync() {
+            return base.Channel.GetAllEmployeesDummyAsync();
         }
     }
 }

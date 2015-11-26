@@ -45,7 +45,9 @@ namespace EmployeeWPFClient.Commands
             {
                 _source.EmployeeList = new ObservableCollection<EmployeeObj>();
 
-                IEnumerable emploeeList = _source.EmployeeService.GetAllEmployees();
+                //IEnumerable emploeeList = _source.EmployeeService.GetAllEmployees();
+                IEnumerable emploeeList = _source.EmployeeService.GetAllEmployeesDummy();
+
 
                 foreach (Employee item in emploeeList)
                 {

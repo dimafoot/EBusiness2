@@ -21,5 +21,11 @@ namespace EmployeeService
 
         [OperationContract]
         List<Employee> GetAllEmployees();
+
+        [OperationContract]
+        Employee GetEmployeeDBDummy(int Id);
+
+        [OperationContract]
+        List<Employee> GetAllEmployeesDummy();
     }
 }

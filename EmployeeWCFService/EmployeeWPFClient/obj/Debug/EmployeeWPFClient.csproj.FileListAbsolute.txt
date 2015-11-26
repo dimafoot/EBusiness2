@@ -32,3 +32,4 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFCl
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\obj\Debug\EmployeeWPFClient.csproj.GenerateResource.Cache
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\obj\Debug\EmployeeWPFClient.exe
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\obj\Debug\EmployeeWPFClient.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\obj\Debug\EmployeeWPFClient.csprojResolveAssemblyReference.cache

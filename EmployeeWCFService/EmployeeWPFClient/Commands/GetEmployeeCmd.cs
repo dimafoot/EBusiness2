@@ -38,7 +38,9 @@ namespace EmployeeWPFClient.Commands
         {
             try
             {
-                Employee employee = _source.EmployeeService.GetEmployeeDB(_source.Id);
+                //Employee employee = _source.EmployeeService.GetEmployeeDB(_source.Id);
+                Employee employee = _source.EmployeeService.GetEmployeeDBDummy(_source.Id);
+
 
                 if (employee.Type.ToString() == "FullTimeEmployee")
                 {

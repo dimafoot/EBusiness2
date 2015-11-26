@@ -229,6 +229,82 @@
       </wsp:All>
     </wsp:ExactlyOne>
   </wsp:Policy>
+  <wsp:Policy wsu:Id="WSHttpBinding_IEmployeeService_GetEmployeeDBDummy_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WSHttpBinding_IEmployeeService_GetEmployeeDBDummy_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WSHttpBinding_IEmployeeService_GetAllEmployeesDummy_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WSHttpBinding_IEmployeeService_GetAllEmployeesDummy_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
   <wsdl:types>
     <xsd:schema targetNamespace="http://tempuri.org/Imports">
       <xsd:import schemaLocation="http://localhost:8888/?xsd=xsd0" namespace="http://tempuri.org/" />
@@ -258,6 +334,18 @@
   <wsdl:message name="IEmployeeService_GetAllEmployees_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetAllEmployeesResponse" />
   </wsdl:message>
+  <wsdl:message name="IEmployeeService_GetEmployeeDBDummy_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeeDBDummy" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_GetEmployeeDBDummy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetEmployeeDBDummyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_GetAllEmployeesDummy_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEmployeesDummy" />
+  </wsdl:message>
+  <wsdl:message name="IEmployeeService_GetAllEmployeesDummy_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllEmployeesDummyResponse" />
+  </wsdl:message>
   <wsdl:portType name="IEmployeeService">
     <wsdl:operation name="GetEmployeeDB">
       <wsdl:input wsaw:Action="http://tempuri.org/IEmployeeService/GetEmployeeDB" message="tns:IEmployeeService_GetEmployeeDB_InputMessage" />
@@ -271,6 +359,14 @@
     <wsdl:operation name="GetAllEmployees">
       <wsdl:input wsaw:Action="http://tempuri.org/IEmployeeService/GetAllEmployees" message="tns:IEmployeeService_GetAllEmployees_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IEmployeeService/GetAllEmployeesResponse" message="tns:IEmployeeService_GetAllEmployees_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEmployeeDBDummy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployeeService/GetEmployeeDBDummy" message="tns:IEmployeeService_GetEmployeeDBDummy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployeeService/GetEmployeeDBDummyResponse" message="tns:IEmployeeService_GetEmployeeDBDummy_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEmployeesDummy">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEmployeeService/GetAllEmployeesDummy" message="tns:IEmployeeService_GetAllEmployeesDummy_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEmployeeService/GetAllEmployeesDummyResponse" message="tns:IEmployeeService_GetAllEmployeesDummy_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="WSHttpBinding_IEmployeeService" type="tns:IEmployeeService">
@@ -313,6 +409,28 @@
         <soap12:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetEmployeeDBDummy">
+      <soap12:operation soapAction="http://tempuri.org/IEmployeeService/GetEmployeeDBDummy" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WSHttpBinding_IEmployeeService_GetEmployeeDBDummy_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WSHttpBinding_IEmployeeService_GetEmployeeDBDummy_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllEmployeesDummy">
+      <soap12:operation soapAction="http://tempuri.org/IEmployeeService/GetAllEmployeesDummy" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WSHttpBinding_IEmployeeService_GetAllEmployeesDummy_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WSHttpBinding_IEmployeeService_GetAllEmployeesDummy_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="EmployeeService">
     <wsdl:port name="WSHttpBinding_IEmployeeService" binding="tns:WSHttpBinding_IEmployeeService">
@@ -320,7 +438,7 @@
       <wsa10:EndpointReference>
         <wsa10:Address>http://localhost:8888/EmployeeService</wsa10:Address>
         <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
-          <Spn>host/afersys-PC2</Spn>
+          <Upn>afersys-PC2\afersys</Upn>
         </Identity>
       </wsa10:EndpointReference>
     </wsdl:port>

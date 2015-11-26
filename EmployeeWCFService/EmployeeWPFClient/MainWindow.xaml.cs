@@ -28,7 +28,9 @@ namespace EmployeeWPFClient
             {
                 _vm.EmployeeList = new ObservableCollection<EmployeeObj>();
 
-                IEnumerable emploeeList = _vm.EmployeeService.GetAllEmployees();
+                //IEnumerable emploeeList = _vm.EmployeeService.GetAllEmployees();
+                IEnumerable emploeeList = _vm.EmployeeService.GetAllEmployeesDummy();
+
 
                 foreach (Employee item in emploeeList)
                 {
