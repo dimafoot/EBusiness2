@@ -1,139 +1,144 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using EmployeeService.Models;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
 using Loguer;
-using EmployeeService.Exceptions;
 
 namespace EmployeeService
 {
-    [GlobalErrorHandlerBehavior(typeof(GlobalErrorHandler))]
+    //[GlobalErrorHandlerBehavior(typeof(GlobalErrorHandler))]
     public class EmployeeService : IEmployeeService
     {
         public List<Employee> GetAllEmployees()
         {
-            List<Employee> listEmployees = new List<Employee>();
-
-            LogDeb.LogException("EmployeeService", "GetAllEmployees", "GetAllEmployees Debut Ok");
-            //Employee employee = new Employee();
-            Employee employee = null;
-
-            string cs = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
-
-            using (SqlConnection con = new SqlConnection(cs))
+            try
             {
-                SqlCommand cmd = new SqlCommand("spGetAllEmployees", con);
-                cmd.CommandType = CommandType.StoredProcedure;
-                con.Open();
+                List<Employee> listEmployees = new List<Employee>();
 
-                SqlDataReader reader = cmd.ExecuteReader();
+                LogDeb.LogException("EmployeeService", "GetAllEmployees", "GetAllEmployees Debut Ok");
+                //Employee employee = new Employee();
+                Employee employee = null;
 
-                while (reader.Read())
+                string cs = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
+
+                using (SqlConnection con = new SqlConnection(cs))
                 {
-                    if ((EmployeeType)reader["EmployeeType"] == EmployeeType.FullTimeEmployee)
+                    SqlCommand cmd = new SqlCommand("spGetAllEmployees", con);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    con.Open();
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    while (reader.Read())
                     {
-                        employee = new FullTimeEmployee
+                        if ((EmployeeType)reader["EmployeeType"] == EmployeeType.FullTimeEmployee)
                         {
-                            Id = Convert.ToInt32(reader["Id"]),
-                            Name = reader["Name"].ToString(),
-                            Gender = reader["Gender"].ToString(),
-                            Dateofb = Convert.ToDateTime(reader["Dateofb"]),
-                            AnnualSalary = Convert.ToInt32(reader["AnnualSalary"]),
-                            Type = EmployeeType.FullTimeEmployee
-                        };
-                        listEmployees.Add(employee);
-                    }
-                    else
-                    {
-                        employee = new PartTimeEmployee
+                            employee = new FullTimeEmployee
+                            {
+                                Id = Convert.ToInt32(reader["Id"]),
+                                Name = reader["Name"].ToString(),
+                                Gender = reader["Gender"].ToString(),
+                                Dateofb = Convert.ToDateTime(reader["Dateofb"]),
+                                AnnualSalary = Convert.ToInt32(reader["AnnualSalary"]),
+                                Type = EmployeeType.FullTimeEmployee
+                            };
+                            listEmployees.Add(employee);
+                        }
+                        else
                         {
-                            Id = Convert.ToInt32(reader["Id"]),
-                            Name = reader["Name"].ToString(),
-                            Gender = reader["Gender"].ToString(),
-                            Dateofb = Convert.ToDateTime(reader["Dateofb"]),
-                            HourlyPay = Convert.ToInt32(reader["HourlyPay"]),
-                            HoursWorked = Convert.ToInt32(reader["HoursWorked"]),
-                            Type = EmployeeType.PartTimeEmployee
-                        };
-                        listEmployees.Add(employee);
+                            employee = new PartTimeEmployee
+                            {
+                                Id = Convert.ToInt32(reader["Id"]),
+                                Name = reader["Name"].ToString(),
+                                Gender = reader["Gender"].ToString(),
+                                Dateofb = Convert.ToDateTime(reader["Dateofb"]),
+                                HourlyPay = Convert.ToInt32(reader["HourlyPay"]),
+                                HoursWorked = Convert.ToInt32(reader["HoursWorked"]),
+                                Type = EmployeeType.PartTimeEmployee
+                            };
+                            listEmployees.Add(employee);
+                        }
                     }
                 }
-            }
-            LogDeb.LogException("EmployeeService", "GetAllEmployees", "GetAllEmployees End Ok");
+                LogDeb.LogException("EmployeeService", "GetAllEmployees", "GetAllEmployees End Ok");
 
-            return listEmployees;
+                return listEmployees;
+            }
+            catch (Exception ex)
+            {
+                LogDeb.LogException("EmployeeService", "GetEmployee", "Error :" + ex.Message);
+                throw ex;
+            }
+
+
         }
 
         public Employee GetEmployeeDB(int Id)
         {
-            ////try
-            ////{
-
-            //if (Id == 0)
-            //    throw new FaultException("Id égal a zero",new FaultCode("IdIsEqualToZero"));
-
-            LogDeb.LogException("EmployeeService", "GetEmployee", "GetEmployee Debut Ok");
-            //Employee employee = new Employee();
-            Employee employee = null;
-
-            string cs = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
-
-            using (SqlConnection con = new SqlConnection(cs))
+            try
             {
-                SqlCommand cmd = new SqlCommand("spGetEmployee", con);
-                cmd.CommandType = CommandType.StoredProcedure;
-                SqlParameter parameterId = new SqlParameter();
-                parameterId.ParameterName = "@Id";
-                parameterId.Value = Id;
-                cmd.Parameters.Add(parameterId);
-                con.Open();
 
-                SqlDataReader reader = cmd.ExecuteReader();
+                //if (Id == 0)
+                //    throw new FaultException("Id égal a zero",new FaultCode("IdIsEqualToZero"));
 
-                while (reader.Read())
+                LogDeb.LogException("EmployeeService", "GetEmployee", "GetEmployee Debut Ok");
+                //Employee employee = new Employee();
+                Employee employee = null;
+
+                string cs = ConfigurationManager.ConnectionStrings["DBCS"].ConnectionString;
+
+                using (SqlConnection con = new SqlConnection(cs))
                 {
-                    if ((EmployeeType)reader["EmployeeType"] == EmployeeType.FullTimeEmployee)
+                    SqlCommand cmd = new SqlCommand("spGetEmployee", con);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    SqlParameter parameterId = new SqlParameter();
+                    parameterId.ParameterName = "@Id";
+                    parameterId.Value = Id;
+                    cmd.Parameters.Add(parameterId);
+                    con.Open();
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    while (reader.Read())
                     {
-                        employee = new FullTimeEmployee
+                        if ((EmployeeType)reader["EmployeeType"] == EmployeeType.FullTimeEmployee)
                         {
-                            Id = Convert.ToInt32(reader["Id"]),
-                            Name = reader["Name"].ToString(),
-                            Gender = reader["Gender"].ToString(),
-                            Dateofb = Convert.ToDateTime(reader["Dateofb"]),
-                            AnnualSalary = Convert.ToInt32(reader["AnnualSalary"]),
-                            Type = EmployeeType.FullTimeEmployee
-                        };
-                    }
-                    else
-                    {
-                        employee = new PartTimeEmployee
+                            employee = new FullTimeEmployee
+                            {
+                                Id = Convert.ToInt32(reader["Id"]),
+                                Name = reader["Name"].ToString(),
+                                Gender = reader["Gender"].ToString(),
+                                Dateofb = Convert.ToDateTime(reader["Dateofb"]),
+                                AnnualSalary = Convert.ToInt32(reader["AnnualSalary"]),
+                                Type = EmployeeType.FullTimeEmployee
+                            };
+                        }
+                        else
                         {
-                            Id = Convert.ToInt32(reader["Id"]),
-                            Name = reader["Name"].ToString(),
-                            Gender = reader["Gender"].ToString(),
-                            Dateofb = Convert.ToDateTime(reader["Dateofb"]),
-                            HourlyPay = Convert.ToInt32(reader["HourlyPay"]),
-                            HoursWorked = Convert.ToInt32(reader["HoursWorked"]),
-                            Type = EmployeeType.PartTimeEmployee
-                        };
+                            employee = new PartTimeEmployee
+                            {
+                                Id = Convert.ToInt32(reader["Id"]),
+                                Name = reader["Name"].ToString(),
+                                Gender = reader["Gender"].ToString(),
+                                Dateofb = Convert.ToDateTime(reader["Dateofb"]),
+                                HourlyPay = Convert.ToInt32(reader["HourlyPay"]),
+                                HoursWorked = Convert.ToInt32(reader["HoursWorked"]),
+                                Type = EmployeeType.PartTimeEmployee
+                            };
+                        }
                     }
                 }
+                LogDeb.LogException("EmployeeService", "GetEmployee", "Employee : " + employee.Id + " - " + employee.Name + " - " + employee.Type + " ");
+                LogDeb.LogException("EmployeeService", "GetEmployee", "GetEmployee End Ok");
+                return employee;
             }
-            LogDeb.LogException("EmployeeService", "GetEmployee", "Employee : " + employee.Id + " - " + employee.Name + " - " + employee.Type + " ");
-            LogDeb.LogException("EmployeeService", "GetEmployee", "GetEmployee End Ok");
-            return employee;
-            ////}
-            ////catch (Exception ex)
-            ////{
-            ////    ZeroFault zeroException = new ZeroFault();
-            ////    zeroException.Error = ex.Message;
-            ////    zeroException.Details = "Id cannot be ZERO";
-
+            catch (Exception ex)
+            {
+                LogDeb.LogException("EmployeeService", "GetEmployee", "Error :" + ex.Message);
+                throw ex;
+            }
             ////    throw new FaultException<ZeroFault>(zeroException);
             ////    //return null;
             ////}
@@ -144,7 +149,6 @@ namespace EmployeeService
             //    LogDeb.LogException("EmployeeService", "GetEmployee", faultException.Message);
             //    return null;
             //}
-
 
         }
 

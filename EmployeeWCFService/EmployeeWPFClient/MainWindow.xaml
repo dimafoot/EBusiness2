@@ -8,7 +8,7 @@
                         mc:Ignorable="d"
                         xmlns:vm="clr-namespace:EmployeeWPFClient.ViewModel"
                         d:DataContext="{d:DesignInstance vm:MainWindowViewModel}"
-                        Title="MainWindow" Height="350" Width="525"
+                        Title="MainWindow" Height="502.735" Width="852.127"
                         Loaded="MetroWindow_Loaded" >
     <Grid>
         <TextBox Text="{Binding Id}" HorizontalAlignment="Left" Height="23" Margin="11,10,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="65"/>
@@ -23,8 +23,7 @@
         <TextBox Text="{Binding Employee.Dateofb}" HorizontalAlignment="Left" Height="23" Margin="98,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="171"/>
         <Label Content="Type :" HorizontalAlignment="Left" Margin="11,167,0,0" VerticalAlignment="Top" Width="65"/>
         <TextBox Text="{Binding Employee.Type}" HorizontalAlignment="Left" Height="23" Margin="303,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137"/>
-        <Label Content="{Binding UserNotification}" FontSize="12" HorizontalAlignment="Left" Height="28" Margin="10,298,0,-3" VerticalAlignment="Top" Width="497"/>
-        <Button Command="{Binding SaveEmployeeCmd}" Content="Save Employee&#xD;&#xA;" HorizontalAlignment="Left" Margin="323,240,0,0" VerticalAlignment="Top" Width="137" Height="26"/>
+        <Button Command="{Binding SaveEmployeeCmd}" Content="Save Employee" HorizontalAlignment="Left" Margin="303,230,0,0" VerticalAlignment="Top" Width="204" Height="26"/>
         <ComboBox ItemsSource="{Binding EmployeeList}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedEmployee}" HorizontalAlignment="Left" Margin="303,47,0,0" VerticalAlignment="Top" Width="204"/>
         <ComboBox SelectedIndex="{Binding SelectedType}" HorizontalAlignment="Left" Margin="98,167,0,0" VerticalAlignment="Top" Width="171">
             <ComboBoxItem Content="Select Employee Type"/>
@@ -37,6 +36,7 @@
         <TextBox Text="{Binding Employee.HourlyPay}" Visibility="{Binding PeIsEnabled}" HorizontalAlignment="Left" Height="23" Margin="98,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
         <Label Content="Hours Worked :" Visibility="{Binding PeIsEnabled}" HorizontalAlignment="Left" Margin="10,233,0,0" VerticalAlignment="Top" Width="86"/>
         <TextBox Text="{Binding Employee.HoursWorked}" Visibility="{Binding PeIsEnabled}" HorizontalAlignment="Left" Height="23" Margin="97,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+        <TextBlock Text="{Binding UserNotification}" TextWrapping="WrapWithOverflow" HorizontalAlignment="Left" Margin="10,267,0,0" VerticalAlignment="Top" Height="199" Width="824"/>
 
 
 
