@@ -1,0 +1,37 @@
+﻿<Page x:Class="RadDocking.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:RadDocking"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="Page1">
+    <Grid>
+        <Telerik: RadDocking.CompassStyle>
+            <Style TargetType = "telerik: Compass">
+                <Setter Property = "IsCenterIndicatorVisible" Value = "True" />
+                <Setter Property = "IsLeftIndicatorVisible" Value = "True" />
+                <Setter Property = "IsTopIndicatorVisible" Value = "True" />
+                <Setter Property = "IsRightIndicatorVisible" Value = "True" />
+                <Setter Property = "IsBottomIndicatorVisible" Value = "True" />
+            </ Style>
+         </telerik:RadDocking.CompassStyle>
+
+
+         <Telerik: RadDocking.RootCompassStyle>
+                <Style TargetType = "telerik: RootCompass">
+                    <Setter Property = "IsLeftIndicatorVisible"
+                Value = "False" />
+                    <Setter Property = "IsTopIndicatorVisible"
+                Value = "False" />
+                    <Setter Property = "IsRightIndicatorVisible"
+                Value = "False" />
+                    <Setter Property = "IsBottomIndicatorVisible"
+                Value = "True" />
+                    <Setter Property = "IsCenterIndicatorVisible"
+                Value = "True" />
+                </ Style>
+           </telerik:RadDocking.RootCompassStyle>
+    </Grid>
+</Page>

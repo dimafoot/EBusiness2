@@ -1,0 +1,35 @@
+﻿<Window x:Class="PrismProjectMVVM2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:views="clr-namespace:PrismProjectMVVM2.Views"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <!--<StackPanel Orientation="Horizontal">
+            <Button Content="View A" Margin="5"></Button>
+            <Button Content="View B" Margin="5"></Button>
+        </StackPanel>
+
+        <ContentControl Grid.Row="1">
+            <views:ViewA Margin="5,5,5,5"></views:ViewA>
+        </ContentControl>-->
+
+        <StackPanel Orientation="Horizontal">
+            <Button Content="ViewA" Command="{Binding NavigateCommand}" CommandParameter="ViewA" Margin="5"></Button>
+            <Button Content="ViewB" Command="{Binding NavigateCommand}" CommandParameter="ViewB" Margin="5"></Button>
+        </StackPanel>
+        
+        <ContentControl Grid.Row="1" prism:RegionManager.RegionName="ContentRegion" />
+        
+        
+    </Grid>
+</Window>

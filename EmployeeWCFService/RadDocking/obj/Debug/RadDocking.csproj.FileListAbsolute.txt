@@ -1,0 +1,3 @@
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\RadDocking\obj\Debug\RadDocking.csprojResolveAssemblyReference.cache
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\RadDocking\obj\Debug\App.g.cs
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\RadDocking\obj\Debug\RadDocking_MarkupCompile.cache

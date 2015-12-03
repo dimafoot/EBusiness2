@@ -22,6 +22,7 @@ namespace EmployeeWPFClient.ViewModel
         private string _feIsEnabled = "Hidden";
         private string _peIsEnabled = "Hidden";
 
+        private DetailsVm _detailsVm;
 
 
 
@@ -132,6 +133,12 @@ namespace EmployeeWPFClient.ViewModel
             set { _peIsEnabled = value; OnPropertyChanged("PeIsEnabled"); }
         }
 
+        public DetailsVm DetailsVm
+        {
+            get { return _detailsVm; }
+            set { _detailsVm = value; OnPropertyChanged("DetailsVm"); }
+        }
+
         #endregion
 
 
@@ -139,6 +146,7 @@ namespace EmployeeWPFClient.ViewModel
 
         public MainWindowViewModel()
         {
+            _detailsVm = new DetailsVm();
             GetEmployeeCmd = new GetEmployeeCmd(this);
             SaveEmployeeCmd = new SaveEmployeeCmd(this);
             WindowsLoadCmd = new GetAllEmployeesCmd(this);

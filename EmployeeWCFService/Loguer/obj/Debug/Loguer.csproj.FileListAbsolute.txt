@@ -8,3 +8,9 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\bin\De
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\bin\Debug\Loguer.pdb
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\obj\Debug\Loguer.exe
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\obj\Debug\Loguer.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\bin\Debug\MongoDB.Bson.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\bin\Debug\MongoDB.Driver.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\bin\Debug\MongoDB.Bson.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\bin\Debug\MongoDB.Driver.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\Loguer\obj\Debug\Loguer.csprojResolveAssemblyReference.cache

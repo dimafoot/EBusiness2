@@ -5,10 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using MongoDB.Bson;
+using MongoDB.Driver;
+
 namespace Loguer
 {
     public class LogDeb
     {
+
         static void Main(string[] args)
         {
             Exception ex = new Exception();

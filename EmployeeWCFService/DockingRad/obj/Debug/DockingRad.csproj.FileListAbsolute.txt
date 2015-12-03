@@ -1,0 +1,14 @@
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\obj\Debug\App.g.cs
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\obj\Debug\DockingRad_MarkupCompile.cache
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\obj\Debug\MainWindow.g.cs
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\obj\Debug\DockingRad.exe
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\obj\Debug\DockingRad.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\bin\Debug\DockingRad.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\bin\Debug\DockingRad.exe
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\bin\Debug\DockingRad.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\obj\Debug\DockingRad.csprojResolveAssemblyReference.cache
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\obj\Debug\MainWindow.baml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\obj\Debug\DockingRad.g.resources
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\obj\Debug\DockingRad.Properties.Resources.resources
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\DockingRad\obj\Debug\DockingRad.csproj.GenerateResource.Cache

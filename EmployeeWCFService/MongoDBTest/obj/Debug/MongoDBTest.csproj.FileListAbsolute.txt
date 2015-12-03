@@ -1,0 +1,11 @@
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\MongoDBTest.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\MongoDBTest.exe
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\MongoDBTest.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\MongoDB.Bson.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\MongoDB.Driver.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\MongoDB.Bson.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\MongoDB.Driver.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\obj\Debug\MongoDBTest.exe
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\obj\Debug\MongoDBTest.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\obj\Debug\MongoDBTest.csprojResolveAssemblyReference.cache
