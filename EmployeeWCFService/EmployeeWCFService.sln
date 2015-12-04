@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVMPrismProject", "MVVMPri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismProjectMVVM2", "PrismProjectMVVM2\PrismProjectMVVM2.csproj", "{FC899B31-E6B4-4106-9FD1-082BF4D91882}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectPismMVVMRelease", "ProjectPismMVVMRelease\ProjectPismMVVMRelease.csproj", "{AD73BC6F-2F7B-4F8E-8F4D-F451D167AA87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{FC899B31-E6B4-4106-9FD1-082BF4D91882}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC899B31-E6B4-4106-9FD1-082BF4D91882}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC899B31-E6B4-4106-9FD1-082BF4D91882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD73BC6F-2F7B-4F8E-8F4D-F451D167AA87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD73BC6F-2F7B-4F8E-8F4D-F451D167AA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD73BC6F-2F7B-4F8E-8F4D-F451D167AA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD73BC6F-2F7B-4F8E-8F4D-F451D167AA87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
