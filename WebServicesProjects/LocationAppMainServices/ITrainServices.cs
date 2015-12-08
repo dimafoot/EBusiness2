@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using Microsoft.Maps.MapControl.WPF;
 
 namespace LocationAppMainServices
 {
@@ -17,9 +18,12 @@ namespace LocationAppMainServices
         [OperationContract]
         List<string> GetCalculations();
 
+        [OperationContract]
+        Location GetRadomLocation();
 
-        //[OperationContract]
-        //int AddStatic(int firstNumber, int secondNumber);
+        [OperationContract]
+        List<Location> GetTrainLocations();
+
 
 
 

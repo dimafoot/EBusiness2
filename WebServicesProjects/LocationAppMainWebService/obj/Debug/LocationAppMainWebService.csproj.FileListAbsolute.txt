@@ -17,3 +17,5 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppM
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainWebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainWebService\obj\Debug\LocationAppMainWebService.dll
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainWebService\obj\Debug\LocationAppMainWebService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainWebService\bin\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainWebService\bin\Microsoft.Maps.MapControl.WPF.xml

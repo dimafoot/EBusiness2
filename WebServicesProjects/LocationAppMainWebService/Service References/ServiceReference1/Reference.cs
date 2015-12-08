@@ -26,6 +26,18 @@ namespace LocationAppMainWebService.ServiceReference1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrainServices/GetCalculations", ReplyAction="http://tempuri.org/ITrainServices/GetCalculationsResponse")]
         System.Threading.Tasks.Task<string[]> GetCalculationsAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrainServices/GetRadomLocation", ReplyAction="http://tempuri.org/ITrainServices/GetRadomLocationResponse")]
+        Microsoft.Maps.MapControl.WPF.Location GetRadomLocation();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrainServices/GetRadomLocation", ReplyAction="http://tempuri.org/ITrainServices/GetRadomLocationResponse")]
+        System.Threading.Tasks.Task<Microsoft.Maps.MapControl.WPF.Location> GetRadomLocationAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrainServices/GetTrainLocations", ReplyAction="http://tempuri.org/ITrainServices/GetTrainLocationsResponse")]
+        Microsoft.Maps.MapControl.WPF.Location[] GetTrainLocations();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrainServices/GetTrainLocations", ReplyAction="http://tempuri.org/ITrainServices/GetTrainLocationsResponse")]
+        System.Threading.Tasks.Task<Microsoft.Maps.MapControl.WPF.Location[]> GetTrainLocationsAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -69,6 +81,22 @@ namespace LocationAppMainWebService.ServiceReference1 {
         
         public System.Threading.Tasks.Task<string[]> GetCalculationsAsync() {
             return base.Channel.GetCalculationsAsync();
+        }
+        
+        public Microsoft.Maps.MapControl.WPF.Location GetRadomLocation() {
+            return base.Channel.GetRadomLocation();
+        }
+        
+        public System.Threading.Tasks.Task<Microsoft.Maps.MapControl.WPF.Location> GetRadomLocationAsync() {
+            return base.Channel.GetRadomLocationAsync();
+        }
+        
+        public Microsoft.Maps.MapControl.WPF.Location[] GetTrainLocations() {
+            return base.Channel.GetTrainLocations();
+        }
+        
+        public System.Threading.Tasks.Task<Microsoft.Maps.MapControl.WPF.Location[]> GetTrainLocationsAsync() {
+            return base.Channel.GetTrainLocationsAsync();
         }
     }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Services;
 using LocationAppMainWebService.ServiceReference1;
+using Microsoft.Maps.MapControl.WPF;
 
 namespace LocationAppMainWebService
 {
@@ -30,6 +31,20 @@ namespace LocationAppMainWebService
         {
             ServiceReference1.ITrainServices client = new TrainServicesClient();
             return client.GetCalculations().ToList();
+        }
+
+        [WebMethod(EnableSession = true)]
+        public Location GetRandomLocation()
+        {
+            ServiceReference1.ITrainServices client = new TrainServicesClient();
+            return client.GetRadomLocation();
+        }
+
+        [WebMethod(EnableSession = true)]
+        public List<Location> GetLocations()
+        {
+            ServiceReference1.ITrainServices client = new TrainServicesClient();
+            return client.GetTrainLocations().ToList();
         }
 
     }
