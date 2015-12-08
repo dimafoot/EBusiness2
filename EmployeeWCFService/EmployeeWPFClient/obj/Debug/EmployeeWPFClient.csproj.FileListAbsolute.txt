@@ -36,3 +36,10 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFCl
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\obj\Debug\Views\MainWindow.g.cs
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\obj\Debug\Views\MainWindow.baml
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\obj\Debug\EmployeeWPFClient.csprojResolveAssemblyReference.cache
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\bin\Debug\Prism.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\bin\Debug\Prism.Wpf.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\bin\Debug\Prism.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\EmployeeWPFClient\bin\Debug\Prism.Wpf.xml

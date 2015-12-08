@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServicesProjects", "WebServicesProjects\WebServicesProjects.csproj", "{A92354AB-AC38-42C4-B8F3-323B7B20AB1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServicesClient", "WebServicesClient\WebServicesClient.csproj", "{4A87FBDD-13D8-43A2-AAB5-16A4F8167400}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A92354AB-AC38-42C4-B8F3-323B7B20AB1F} = {A92354AB-AC38-42C4-B8F3-323B7B20AB1F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationAppMainServices", "LocationAppMainServices\LocationAppMainServices.csproj", "{ED47C06A-7F7C-4DAF-8650-EB32CEA14E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationAppMainServicesHost", "LocationAppMainServicesHost\LocationAppMainServicesHost.csproj", "{91E213DF-CD34-4F8A-B863-2D14B824AC04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationAppMainServicesClient", "LocationAppMainServicesClient\LocationAppMainServicesClient.csproj", "{09C86DCE-99EB-48DF-92FA-D2ADB75BE1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationAppMainWebService", "LocationAppMainWebService\LocationAppMainWebService.csproj", "{9D4CA2C2-4B8E-475C-9679-0FA9C315B2EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A92354AB-AC38-42C4-B8F3-323B7B20AB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92354AB-AC38-42C4-B8F3-323B7B20AB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92354AB-AC38-42C4-B8F3-323B7B20AB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92354AB-AC38-42C4-B8F3-323B7B20AB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A87FBDD-13D8-43A2-AAB5-16A4F8167400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A87FBDD-13D8-43A2-AAB5-16A4F8167400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A87FBDD-13D8-43A2-AAB5-16A4F8167400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A87FBDD-13D8-43A2-AAB5-16A4F8167400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED47C06A-7F7C-4DAF-8650-EB32CEA14E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED47C06A-7F7C-4DAF-8650-EB32CEA14E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED47C06A-7F7C-4DAF-8650-EB32CEA14E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED47C06A-7F7C-4DAF-8650-EB32CEA14E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91E213DF-CD34-4F8A-B863-2D14B824AC04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91E213DF-CD34-4F8A-B863-2D14B824AC04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91E213DF-CD34-4F8A-B863-2D14B824AC04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91E213DF-CD34-4F8A-B863-2D14B824AC04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C86DCE-99EB-48DF-92FA-D2ADB75BE1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C86DCE-99EB-48DF-92FA-D2ADB75BE1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C86DCE-99EB-48DF-92FA-D2ADB75BE1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C86DCE-99EB-48DF-92FA-D2ADB75BE1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4CA2C2-4B8E-475C-9679-0FA9C315B2EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4CA2C2-4B8E-475C-9679-0FA9C315B2EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4CA2C2-4B8E-475C-9679-0FA9C315B2EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4CA2C2-4B8E-475C-9679-0FA9C315B2EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

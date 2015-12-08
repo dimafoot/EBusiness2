@@ -1,0 +1,6 @@
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Debug\LocationAppMainServices.dll.config
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Debug\LocationAppMainServices.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Debug\LocationAppMainServices.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\obj\Debug\LocationAppMainServices.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\obj\Debug\LocationAppMainServices.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\obj\Debug\LocationAppMainServices.csprojResolveAssemblyReference.cache

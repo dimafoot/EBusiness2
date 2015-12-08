@@ -1,0 +1,89 @@
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.csprojResolveAssemblyReference.cache
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\ViewA.baml
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\ViewB.baml
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\BaseWindow.g.cs
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\ViewA.g.cs
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\ViewB.g.cs
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\App.g.cs
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM_MarkupCompile.cache
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM_MarkupCompile.lref
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\PrismSampleMVVM.exe.config
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\PrismSampleMVVM.exe
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\PrismSampleMVVM.pdb
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.Wpf.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.xml
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.Wpf.xml
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\BaseWindow.baml
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.g.resources
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.Properties.Resources.resources
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.csproj.GenerateResource.Cache
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.exe
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.pdb
+C:\Users\dskat\Documents\Visual Studio 2015\Projects\PrismMVVMProject\PrismSampleMVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\PrismSampleMVVM.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.exe
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\PrismSampleMVVM.exe
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\PrismSampleMVVM.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.Unity.Wpf.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.Wpf.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.Unity.Wpf.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\Prism.Wpf.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.csprojResolveAssemblyReference.cache
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\ViewA.baml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\ViewB.baml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\BaseWindow.g.cs
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\ViewA.g.cs
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\ViewB.g.cs
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\App.g.cs
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM_MarkupCompile.cache
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM_MarkupCompile.lref
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\Views\BaseWindow.baml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.g.resources
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.Properties.Resources.resources
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\PrismMVVMProject\PrismMVVMProject\PrismSampleMVVM\obj\Debug\PrismSampleMVVM.csproj.GenerateResource.Cache

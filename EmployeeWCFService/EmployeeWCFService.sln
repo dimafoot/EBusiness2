@@ -21,6 +21,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismProjectMVVM2", "PrismP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectPismMVVMRelease", "ProjectPismMVVMRelease\ProjectPismMVVMRelease.csproj", "{AD73BC6F-2F7B-4F8E-8F4D-F451D167AA87}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceEmployee", "WebServiceEmployee\WebServiceEmployee.csproj", "{7A3C3D47-B37B-4021-BFB4-FCE5871308CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceEmployeeWPFClient", "WebServiceEmployeeWPFClient\WebServiceEmployeeWPFClient.csproj", "{844C30DE-95DE-407E-B2CC-3D7DE6FFD988}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A3C3D47-B37B-4021-BFB4-FCE5871308CE} = {7A3C3D47-B37B-4021-BFB4-FCE5871308CE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceWebClientProject", "WebServiceWebClientProject\WebServiceWebClientProject.csproj", "{F1494A18-A7A6-4975-9606-AC4D97AC5F03}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7A3C3D47-B37B-4021-BFB4-FCE5871308CE} = {7A3C3D47-B37B-4021-BFB4-FCE5871308CE}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +75,18 @@ Global
 		{AD73BC6F-2F7B-4F8E-8F4D-F451D167AA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD73BC6F-2F7B-4F8E-8F4D-F451D167AA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD73BC6F-2F7B-4F8E-8F4D-F451D167AA87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3C3D47-B37B-4021-BFB4-FCE5871308CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3C3D47-B37B-4021-BFB4-FCE5871308CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3C3D47-B37B-4021-BFB4-FCE5871308CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3C3D47-B37B-4021-BFB4-FCE5871308CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{844C30DE-95DE-407E-B2CC-3D7DE6FFD988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{844C30DE-95DE-407E-B2CC-3D7DE6FFD988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{844C30DE-95DE-407E-B2CC-3D7DE6FFD988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{844C30DE-95DE-407E-B2CC-3D7DE6FFD988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1494A18-A7A6-4975-9606-AC4D97AC5F03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1494A18-A7A6-4975-9606-AC4D97AC5F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1494A18-A7A6-4975-9606-AC4D97AC5F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1494A18-A7A6-4975-9606-AC4D97AC5F03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
