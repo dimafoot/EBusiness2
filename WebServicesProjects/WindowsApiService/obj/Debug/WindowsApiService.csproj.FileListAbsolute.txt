@@ -1,0 +1,7 @@
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Debug\WindowsApiService.dll.config
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Debug\WindowsApiService.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Debug\WindowsApiService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\obj\Debug\WindowsApiService.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\obj\Debug\WindowsApiService.pdb

@@ -1,0 +1,15 @@
+﻿Installation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\WindowsApiService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\WindowsApiService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\WindowsApiService.exe
+   logtoconsole = 
+Installation du service WCFTrainWinService en cours...
+Le service WCFTrainWinService a été installé avec succès.
+Création d'une source EventLog WCFTrainWinService dans le journal Application...
+Validation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\WindowsApiService.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\WindowsApiService.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\WindowsApiService.exe
+   logtoconsole = 

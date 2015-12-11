@@ -24,8 +24,5 @@ namespace LocationAppMainServices
         [OperationContract]
         List<Location> GetTrainLocations();
 
-
-
-
     }
 }

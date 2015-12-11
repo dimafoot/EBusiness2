@@ -1,0 +1,10 @@
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\WindowsApiService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\obj\Release\WindowsApiService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\ProjectInstaller.cs
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\TrainWindowsService.cs
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\WindowsApiService.exe.config
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\WindowsApiService.exe
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\obj\Release\WindowsApiService.exe
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\obj\Release\WindowsApiService.csprojResolveAssemblyReference.cache

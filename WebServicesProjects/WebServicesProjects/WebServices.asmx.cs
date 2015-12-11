@@ -56,7 +56,6 @@ namespace WebServicesProjects
             }
         }
 
-
         [WebMethod(EnableSession = true)]
         public static List<string> GetCalculationsList()
         {

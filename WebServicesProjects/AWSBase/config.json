@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "AWSBase"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-AWSBase-4f5f216c-b202-42ad-8725-eee31581e312;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}

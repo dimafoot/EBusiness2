@@ -17,4 +17,3 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppM
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesClient\obj\Debug\LocationAppMainServicesClient.dll
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesClient\obj\Debug\LocationAppMainServicesClient.pdb
-C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesClient\obj\Debug\LocationAppMainServicesClient.csprojResolveAssemblyReference.cache
