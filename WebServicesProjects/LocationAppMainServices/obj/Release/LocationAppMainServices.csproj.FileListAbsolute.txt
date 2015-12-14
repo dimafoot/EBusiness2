@@ -7,4 +7,8 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppM
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\LocationAppMainServices.exe.config
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\LocationAppMainServices.exe
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\obj\Release\LocationAppMainServices.exe
-C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\obj\Release\LocationAppMainServices.csprojResolveAssemblyReference.cache
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\MongoDB.Bson.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\MongoDB.Driver.Core.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\MongoDB.Driver.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\MongoDB.Bson.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\MongoDB.Driver.xml

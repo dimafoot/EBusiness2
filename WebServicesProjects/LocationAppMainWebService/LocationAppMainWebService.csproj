@@ -79,6 +79,12 @@
     <None Include="Service References\ServiceReference1\item1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\ServiceReference1\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceReference1\item3.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\ServiceReference1\TrainServices.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -98,12 +104,6 @@
     </None>
     <Content Include="Web.config" />
     <Content Include="WebServicesWCF.asmx" />
-    <None Include="Service References\ServiceReference1\item2.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Service References\ServiceReference1\item3.xsd">
-      <SubType>Designer</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

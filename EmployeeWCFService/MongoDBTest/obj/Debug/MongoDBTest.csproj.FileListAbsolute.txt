@@ -27,3 +27,5 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\b
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\ru\System.Windows.Interactivity.resources.dll
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\MongoDB.Driver.Legacy.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\MongoDBTest\bin\Debug\MongoDB.Driver.Legacy.xml

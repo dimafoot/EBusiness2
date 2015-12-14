@@ -7,4 +7,8 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiSe
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\WindowsApiService.exe.config
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\WindowsApiService.exe
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\obj\Release\WindowsApiService.exe
-C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\obj\Release\WindowsApiService.csprojResolveAssemblyReference.cache
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\MongoDB.Bson.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\MongoDB.Driver.Core.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\MongoDB.Driver.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\MongoDB.Bson.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\WindowsApiService\bin\Release\MongoDB.Driver.xml

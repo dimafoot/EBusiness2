@@ -41,3 +41,4 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceEmp
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceEmployeeWPFClient\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceEmployeeWPFClient\obj\Debug\Views\MyLocationBingMap.g.cs
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceEmployeeWPFClient\obj\Debug\Views\MyLocationBingMap.baml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceEmployeeWPFClient\obj\Debug\WebServiceEmployeeWPFClient.csprojResolveAssemblyReference.cache

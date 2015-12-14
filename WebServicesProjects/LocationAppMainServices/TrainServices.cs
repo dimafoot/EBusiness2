@@ -5,6 +5,8 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 using Microsoft.Maps.MapControl.WPF;
+using MongoDB.Bson;
+using MongoDB.Driver;
 
 namespace LocationAppMainServices
 {
@@ -12,6 +14,9 @@ namespace LocationAppMainServices
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
     public class TrainServices : ITrainServices
     {
+        protected static IMongoClient _client;
+        protected static IMongoDatabase _database;
+
         private List<string> _calculations;
         private List<Location> _locations;
 
@@ -56,11 +61,39 @@ namespace LocationAppMainServices
             Random r = new Random();
             string lat = r.Next(10, 40) + "," + r.Next(10000, 10500);
             string log = r.Next(1, 15) + "," + r.Next(40000, 40500);
+            double alt = r.Next(0, 3500) ;
+
 
             _locations.Add(new Location(Convert.ToDouble(lat), Convert.ToDouble(log)));
 
-            return new Location(Convert.ToDouble(lat), Convert.ToDouble(log));
+
+            #region SetInDB
+
+            _client = new MongoClient();
+            _database = _client.GetDatabase("test");
+
+            var document = new BsonDocument
+                                    {
+                                        {"TrainId", "Dskat747"},
+                                        {"Coordonnees", new BsonDocument
+                                        {
+                                            {"latitude", Convert.ToDouble(lat)},
+                                            {"longitude", Convert.ToDouble(log)},
+                                            {"altitude", alt},
+                                            {"date", DateTime.Now.ToString("s")},
+                                        }
+                                        }
+                                    };
+
+            var collection = _database.GetCollection<BsonDocument>("test");
+            collection.InsertOne(document);
+
+            #endregion
+
+
+            return new Location(Convert.ToDouble(lat), Convert.ToDouble(log),alt);
         }
+
 
         public List<Location> GetTrainLocations()
         {

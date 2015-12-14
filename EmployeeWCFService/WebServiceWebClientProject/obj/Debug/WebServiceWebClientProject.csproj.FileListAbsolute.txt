@@ -17,3 +17,4 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceWeb
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceWebClientProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceWebClientProject\obj\Debug\WebServiceWebClientProject.dll
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceWebClientProject\obj\Debug\WebServiceWebClientProject.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceWebClientProject\obj\Debug\WebServiceWebClientProject.csprojResolveAssemblyReference.cache

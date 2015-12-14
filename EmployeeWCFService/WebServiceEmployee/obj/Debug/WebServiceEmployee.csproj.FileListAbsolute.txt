@@ -37,3 +37,4 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceEmp
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceEmployee\bin\zh-Hant\System.Windows.Interactivity.resources.dll
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceEmployee\bin\Microsoft.Maps.MapControl.WPF.dll
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceEmployee\bin\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\EmployeeWCFService\WebServiceEmployee\obj\Debug\WebServiceEmployee.csprojResolveAssemblyReference.cache

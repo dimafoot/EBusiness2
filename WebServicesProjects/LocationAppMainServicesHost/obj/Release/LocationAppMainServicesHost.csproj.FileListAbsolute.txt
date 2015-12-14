@@ -10,3 +10,8 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppM
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesHost\bin\Release\ProjectInstaller.cs
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesHost\bin\Release\TrainServicesWindowsService.cs
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesHost\bin\Release\LocationAppMainServices.exe
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesHost\bin\Release\MongoDB.Driver.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesHost\bin\Release\MongoDB.Bson.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesHost\bin\Release\MongoDB.Driver.Core.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesHost\bin\Release\MongoDB.Driver.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServicesHost\bin\Release\MongoDB.Bson.xml
