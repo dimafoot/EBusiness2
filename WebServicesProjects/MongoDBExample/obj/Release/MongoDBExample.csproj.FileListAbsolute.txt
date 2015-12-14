@@ -14,4 +14,6 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\MongoDBExamp
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\MongoDBExample\bin\Release\FluentAssertions.xml
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\MongoDBExample\bin\Release\FluentAssertions.Core.pdb
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\MongoDBExample\bin\Release\FluentAssertions.Core.xml
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\MongoDBExample\bin\Release\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\MongoDBExample\bin\Release\Microsoft.Maps.MapControl.WPF.xml
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\MongoDBExample\obj\Release\MongoDBExample.csprojResolveAssemblyReference.cache

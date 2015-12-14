@@ -1,10 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using Microsoft.Maps.MapControl.WPF;
+using MongoDAO;
 using MongoDB.Bson;
 using MongoDB.Driver;
+using MongoDB.Driver.Linq;
 
 namespace MongoDBExample
 {
@@ -19,12 +25,62 @@ namespace MongoDBExample
 
         private static void Main(string[] args)
         {
+            //XmlDocument xmlDoc = new XmlDocument();
+            //xmlDoc.Load("http://www.freegeoip.net/xml/");
+
+            //string IP = xmlDoc.DocumentElement.SelectSingleNode("/Response/IP").InnerText;
+            //string Latitude = xmlDoc.DocumentElement.SelectSingleNode("/Response/Latitude").InnerText.Replace('.', ',');
+            //string Longitude = xmlDoc.DocumentElement.SelectSingleNode("/Response/Longitude").InnerText.Replace('.', ',');
+
+            //Console.WriteLine(IP);
+            //Console.WriteLine(Latitude);
+            //Console.WriteLine(Longitude);
+
+            //var xloc = new Location(Convert.ToDouble(Latitude), Convert.ToDouble(Longitude));
+
+            //foreach (XmlNode xmlNode in xmlDoc.DocumentElement.SelectSingleNode("/Response"))
+            //    Console.WriteLine(xmlNode.InnerText);
+            //Console.ReadKey();
+
+
+
+            Console.ReadKey();
             //InsertMongoDb();
 
-            InsertTrainDb();
+            //InsertTrainDb();
             //FindAsyncrone();
 
+            //Page_Load();
+
+            QueryMongoDB();
+
         }
+
+        private static void QueryMongoDB()
+        {
+            _client = new MongoClient();
+            _database = _client.GetDatabase("test");
+
+            var collection = _database.GetCollection<TDocument>("test");
+
+        }
+
+        private static void Page_Load()
+        {
+            XmlDocument xdoc = new XmlDocument();//xml doc used for xml parsing
+
+            xdoc.Load(
+                "http://latestpackagingnews.blogspot.com/feeds/posts/default"
+                );//loading XML in xml doc
+
+            XmlNodeList xNodelst = xdoc.DocumentElement.SelectNodes("entry");//reading node so that we can traverse thorugh the XML
+
+            foreach (XmlNode xNode in xNodelst)//traversing XML
+            {
+
+            }
+        }
+
 
         private static async void FindAsyncrone()
         {
@@ -115,13 +171,13 @@ namespace MongoDBExample
 
             var document = new BsonDocument
             {
-                {"TrainId", "ZA747"},
+                {"TrainId", "ICE_747"},
                 {"Coordonnees", new BsonDocument
                 {
                     {"latitude", "45.6920"},
                     {"longitude", "12.54845"},
                     {"altitude", "150"},
-                    {"date", DateTime.Now.ToString("s")},
+                    {"date", DateTime.Now.ToString("s")}
                 }
                 }
             };
@@ -131,6 +187,26 @@ namespace MongoDBExample
             //await collection.InsertOneAsync(document);
         }
 
+
+
+    }
+
+    internal class User
+    {
+        public string TrainId { get; set; }
+        public Coordonnees Coordonnees { get; set; }
+        public string Paye { get; set; }
+        public string Ville { get; set; }
+        public string Code_Postale { get; set; }
+
+    }
+
+    internal class Coordonnees
+    {
+        public string latitude { get; set; }
+        public string longitude { get; set; }
+        public string altitude { get; set; }
+        public string date { get; set; }
 
 
     }

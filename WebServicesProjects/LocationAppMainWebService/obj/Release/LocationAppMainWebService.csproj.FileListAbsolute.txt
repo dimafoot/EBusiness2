@@ -19,3 +19,4 @@ C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppM
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainWebService\bin\Microsoft.Maps.MapControl.WPF.xml
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainWebService\obj\Release\LocationAppMainWebService.dll
 C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainWebService\obj\Release\LocationAppMainWebService.pdb
+C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainWebService\obj\Release\LocationAppMainWebService.csprojResolveAssemblyReference.cache

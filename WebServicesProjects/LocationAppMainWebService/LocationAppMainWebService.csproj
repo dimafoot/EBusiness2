@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\DataSources\Microsoft.Maps.MapControl.WPF.Location.datasource" />
+    <Content Include="SendLocation.aspx" />
     <None Include="Service References\ServiceReference1\item.disco" />
     <None Include="Service References\ServiceReference1\configuration91.svcinfo" />
     <None Include="Service References\ServiceReference1\configuration.svcinfo" />
@@ -107,6 +108,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendLocation.aspx.cs">
+      <DependentUpon>SendLocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendLocation.aspx.designer.cs">
+      <DependentUpon>SendLocation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Service References\ServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

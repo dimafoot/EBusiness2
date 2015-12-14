@@ -41,6 +41,37 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="SetTrainLocation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ip" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="latitude" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="longitude" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="alt" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetTrainLocationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Microsoft.Maps.MapControl.WPF" minOccurs="0" name="SetTrainLocationResult" nillable="true" type="q3:Location" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetUserLocationByIp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ip" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SetUserLocationByIpResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Microsoft.Maps.MapControl.WPF" minOccurs="0" name="SetUserLocationByIpResult" nillable="true" type="q4:Location" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="GetTrainLocations">
     <xs:complexType>
       <xs:sequence />
@@ -49,7 +80,7 @@
   <xs:element name="GetTrainLocationsResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Microsoft.Maps.MapControl.WPF" minOccurs="0" name="GetTrainLocationsResult" nillable="true" type="q3:ArrayOfLocation" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Microsoft.Maps.MapControl.WPF" minOccurs="0" name="GetTrainLocationsResult" nillable="true" type="q5:ArrayOfLocation" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

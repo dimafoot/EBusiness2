@@ -22,6 +22,12 @@ namespace LocationAppMainServices
         Location GetRadomLocation();
 
         [OperationContract]
+        Location SetTrainLocation(string ip, string latitude, string longitude, string alt);
+
+        [OperationContract]
+        Location SetUserLocationByIp(string ip);
+
+        [OperationContract]
         List<Location> GetTrainLocations();
 
     }

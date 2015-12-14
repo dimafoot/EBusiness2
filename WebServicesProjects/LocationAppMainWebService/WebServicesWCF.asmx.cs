@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Services;
@@ -39,6 +40,24 @@ namespace LocationAppMainWebService
             ServiceReference1.ITrainServices client = new TrainServicesClient();
             return client.GetRadomLocation();
         }
+
+        [WebMethod(EnableSession = true)]
+        public Location SetTrainLocation(string ip,string latitude, string longitude,string altitude)
+        {
+            //string ipAddress = Context.Request.UserHostAddress;
+            var ipAddress = HttpContext.Current.Request.UserHostAddress;
+
+            ServiceReference1.ITrainServices client = new TrainServicesClient();
+            return client.SetTrainLocation(ipAddress, latitude,longitude,altitude);
+        }
+
+        [WebMethod(EnableSession = true)]
+        public Location SetUserLocation()
+        {
+            ServiceReference1.ITrainServices client = new TrainServicesClient();
+            return client.SetUserLocationByIp(HttpContext.Current.Request.UserHostAddress);
+        }
+
 
         [WebMethod(EnableSession = true)]
         public List<Location> GetLocations()

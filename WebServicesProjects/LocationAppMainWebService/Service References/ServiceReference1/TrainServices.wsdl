@@ -210,6 +210,82 @@
       </wsp:All>
     </wsp:ExactlyOne>
   </wsp:Policy>
+  <wsp:Policy wsu:Id="WSHttpBinding_ITrainServices_SetTrainLocation_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WSHttpBinding_ITrainServices_SetTrainLocation_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WSHttpBinding_ITrainServices_SetUserLocationByIp_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WSHttpBinding_ITrainServices_SetUserLocationByIp_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
   <wsp:Policy wsu:Id="WSHttpBinding_ITrainServices_GetTrainLocations_Input_policy">
     <wsp:ExactlyOne>
       <wsp:All>
@@ -274,6 +350,18 @@
   <wsdl:message name="ITrainServices_GetRadomLocation_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetRadomLocationResponse" />
   </wsdl:message>
+  <wsdl:message name="ITrainServices_SetTrainLocation_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetTrainLocation" />
+  </wsdl:message>
+  <wsdl:message name="ITrainServices_SetTrainLocation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetTrainLocationResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITrainServices_SetUserLocationByIp_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetUserLocationByIp" />
+  </wsdl:message>
+  <wsdl:message name="ITrainServices_SetUserLocationByIp_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetUserLocationByIpResponse" />
+  </wsdl:message>
   <wsdl:message name="ITrainServices_GetTrainLocations_InputMessage">
     <wsdl:part name="parameters" element="tns:GetTrainLocations" />
   </wsdl:message>
@@ -292,6 +380,14 @@
     <wsdl:operation name="GetRadomLocation">
       <wsdl:input wsaw:Action="http://tempuri.org/ITrainServices/GetRadomLocation" message="tns:ITrainServices_GetRadomLocation_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ITrainServices/GetRadomLocationResponse" message="tns:ITrainServices_GetRadomLocation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetTrainLocation">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrainServices/SetTrainLocation" message="tns:ITrainServices_SetTrainLocation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrainServices/SetTrainLocationResponse" message="tns:ITrainServices_SetTrainLocation_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetUserLocationByIp">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrainServices/SetUserLocationByIp" message="tns:ITrainServices_SetUserLocationByIp_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrainServices/SetUserLocationByIpResponse" message="tns:ITrainServices_SetUserLocationByIp_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="GetTrainLocations">
       <wsdl:input wsaw:Action="http://tempuri.org/ITrainServices/GetTrainLocations" message="tns:ITrainServices_GetTrainLocations_InputMessage" />
@@ -331,6 +427,28 @@
       </wsdl:input>
       <wsdl:output>
         <wsp:PolicyReference URI="#WSHttpBinding_ITrainServices_GetRadomLocation_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetTrainLocation">
+      <soap12:operation soapAction="http://tempuri.org/ITrainServices/SetTrainLocation" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WSHttpBinding_ITrainServices_SetTrainLocation_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WSHttpBinding_ITrainServices_SetTrainLocation_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetUserLocationByIp">
+      <soap12:operation soapAction="http://tempuri.org/ITrainServices/SetUserLocationByIp" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WSHttpBinding_ITrainServices_SetUserLocationByIp_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WSHttpBinding_ITrainServices_SetUserLocationByIp_output_policy" />
         <soap12:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

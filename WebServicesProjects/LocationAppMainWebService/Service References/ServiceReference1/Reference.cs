@@ -33,6 +33,18 @@ namespace LocationAppMainWebService.ServiceReference1 {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrainServices/GetRadomLocation", ReplyAction="http://tempuri.org/ITrainServices/GetRadomLocationResponse")]
         System.Threading.Tasks.Task<Microsoft.Maps.MapControl.WPF.Location> GetRadomLocationAsync();
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrainServices/SetTrainLocation", ReplyAction="http://tempuri.org/ITrainServices/SetTrainLocationResponse")]
+        Microsoft.Maps.MapControl.WPF.Location SetTrainLocation(string ip, string latitude, string longitude, string alt);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrainServices/SetTrainLocation", ReplyAction="http://tempuri.org/ITrainServices/SetTrainLocationResponse")]
+        System.Threading.Tasks.Task<Microsoft.Maps.MapControl.WPF.Location> SetTrainLocationAsync(string ip, string latitude, string longitude, string alt);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrainServices/SetUserLocationByIp", ReplyAction="http://tempuri.org/ITrainServices/SetUserLocationByIpResponse")]
+        Microsoft.Maps.MapControl.WPF.Location SetUserLocationByIp(string ip);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrainServices/SetUserLocationByIp", ReplyAction="http://tempuri.org/ITrainServices/SetUserLocationByIpResponse")]
+        System.Threading.Tasks.Task<Microsoft.Maps.MapControl.WPF.Location> SetUserLocationByIpAsync(string ip);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITrainServices/GetTrainLocations", ReplyAction="http://tempuri.org/ITrainServices/GetTrainLocationsResponse")]
         Microsoft.Maps.MapControl.WPF.Location[] GetTrainLocations();
         
@@ -89,6 +101,22 @@ namespace LocationAppMainWebService.ServiceReference1 {
         
         public System.Threading.Tasks.Task<Microsoft.Maps.MapControl.WPF.Location> GetRadomLocationAsync() {
             return base.Channel.GetRadomLocationAsync();
+        }
+        
+        public Microsoft.Maps.MapControl.WPF.Location SetTrainLocation(string ip, string latitude, string longitude, string alt) {
+            return base.Channel.SetTrainLocation(ip, latitude, longitude, alt);
+        }
+        
+        public System.Threading.Tasks.Task<Microsoft.Maps.MapControl.WPF.Location> SetTrainLocationAsync(string ip, string latitude, string longitude, string alt) {
+            return base.Channel.SetTrainLocationAsync(ip, latitude, longitude, alt);
+        }
+        
+        public Microsoft.Maps.MapControl.WPF.Location SetUserLocationByIp(string ip) {
+            return base.Channel.SetUserLocationByIp(ip);
+        }
+        
+        public System.Threading.Tasks.Task<Microsoft.Maps.MapControl.WPF.Location> SetUserLocationByIpAsync(string ip) {
+            return base.Channel.SetUserLocationByIpAsync(ip);
         }
         
         public Microsoft.Maps.MapControl.WPF.Location[] GetTrainLocations() {

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using System.Xml;
 using Microsoft.Maps.MapControl.WPF;
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -29,8 +30,8 @@ namespace LocationAppMainServices
             }
 
             string strTransaction = firstNumber.ToString() + " + "
-                + secondNumber.ToString()
-                + " = " + (firstNumber + secondNumber).ToString();
+                                    + secondNumber.ToString()
+                                    + " = " + (firstNumber + secondNumber).ToString();
 
             _calculations.Add(strTransaction);
 
@@ -47,7 +48,7 @@ namespace LocationAppMainServices
             }
             else
             {
-                return _calculations ;
+                return _calculations;
             }
         }
 
@@ -61,10 +62,10 @@ namespace LocationAppMainServices
             Random r = new Random();
             string lat = r.Next(10, 40) + "," + r.Next(10000, 10500);
             string log = r.Next(1, 15) + "," + r.Next(40000, 40500);
-            double alt = r.Next(0, 3500) ;
+            double alt = r.Next(0, 3500);
 
 
-            _locations.Add(new Location(Convert.ToDouble(lat), Convert.ToDouble(log)));
+            _locations.Add(new Location(Convert.ToDouble(lat), Convert.ToDouble(log), alt));
 
 
             #region SetInDB
@@ -73,17 +74,18 @@ namespace LocationAppMainServices
             _database = _client.GetDatabase("test");
 
             var document = new BsonDocument
-                                    {
-                                        {"TrainId", "Dskat747"},
-                                        {"Coordonnees", new BsonDocument
-                                        {
-                                            {"latitude", Convert.ToDouble(lat)},
-                                            {"longitude", Convert.ToDouble(log)},
-                                            {"altitude", alt},
-                                            {"date", DateTime.Now.ToString("s")},
-                                        }
-                                        }
-                                    };
+            {
+                {"TrainId", "ICE_747"},
+                {
+                    "Coordonnees", new BsonDocument
+                    {
+                        {"latitude", Convert.ToDouble(lat)},
+                        {"longitude", Convert.ToDouble(log)},
+                        {"altitude", alt},
+                        {"date", DateTime.Now.ToString("s")}
+                    }
+                }
+            };
 
             var collection = _database.GetCollection<BsonDocument>("test");
             collection.InsertOne(document);
@@ -91,7 +93,100 @@ namespace LocationAppMainServices
             #endregion
 
 
-            return new Location(Convert.ToDouble(lat), Convert.ToDouble(log),alt);
+            return new Location(Convert.ToDouble(lat), Convert.ToDouble(log), alt);
+        }
+
+
+
+        public Location SetTrainLocation(string ip, string latitude, string longitude, string alt)
+        {
+            if (_locations == null)
+            {
+                _locations = new List<Location>();
+            }
+
+            _locations.Add(new Location(Convert.ToDouble(latitude), Convert.ToDouble(longitude), Convert.ToDouble(alt)));
+
+
+            #region SetInDB
+
+            _client = new MongoClient();
+            _database = _client.GetDatabase("test");
+
+            var document = new BsonDocument
+            {
+                {"TrainId", "DB_" + ip},
+                {
+                    "Coordonnees", new BsonDocument
+                    {
+                        {"latitude", Convert.ToDouble(latitude)},
+                        {"longitude", Convert.ToDouble(longitude)},
+                        {"altitude", alt},
+                        {"date", DateTime.Now.ToString("s")}
+                    }
+                }
+            };
+
+            var collection = _database.GetCollection<BsonDocument>("test");
+            collection.InsertOne(document);
+
+            #endregion
+
+            return new Location(Convert.ToDouble(latitude), Convert.ToDouble(longitude), Convert.ToDouble(alt));
+        }
+
+        public Location SetUserLocationByIp(string ip)
+        {
+            if (_locations == null)
+            {
+                _locations = new List<Location>();
+            }
+
+            #region GetLocationByIP
+
+            XmlDocument xmlDoc = new XmlDocument();
+            xmlDoc.Load("http://www.freegeoip.net/xml/" + ip);
+
+
+            string latitude = xmlDoc.DocumentElement.SelectSingleNode("/Response/Latitude").InnerText.Replace('.', ',');
+            string longitude = xmlDoc.DocumentElement.SelectSingleNode("/Response/Longitude").InnerText.Replace('.', ',');
+
+            string countryName = xmlDoc.DocumentElement.SelectSingleNode("/Response/CountryName").InnerText;
+            string city = xmlDoc.DocumentElement.SelectSingleNode("/Response/City").InnerText;
+            string zipCode = xmlDoc.DocumentElement.SelectSingleNode("/Response/ZipCode").InnerText;
+
+            #endregion
+
+            _locations.Add(new Location(Convert.ToDouble(latitude), Convert.ToDouble(longitude)));
+
+            #region SetInDB
+
+            _client = new MongoClient();
+            _database = _client.GetDatabase("test");
+
+            var document = new BsonDocument
+                                    {
+                                        {"TrainId", "DB_" + ip},
+                                        {
+                                            "Coordonnees", new BsonDocument
+                                            {
+                                                {"latitude", Convert.ToDouble(latitude)},
+                                                {"longitude", Convert.ToDouble(longitude)},
+                                                {"altitude", "0"},
+                                                {"date", DateTime.Now.ToString("s")}
+                                            }
+                                        },
+                                        {"Paye", countryName},
+                                        {"Ville", city},
+                                        {"Code Postal", zipCode}
+                                    };
+
+            var collection = _database.GetCollection<BsonDocument>("test");
+            collection.InsertOne(document);
+
+            #endregion
+
+            return new Location(Convert.ToDouble(latitude), Convert.ToDouble(longitude));
         }
 
 
@@ -100,7 +195,7 @@ namespace LocationAppMainServices
             if (_locations == null)
             {
                 _locations = new List<Location>();
-                _locations.Add(new Location(0, 0));
+                //_locations.Add(new Location(0, 0));
                 return _locations;
             }
             else

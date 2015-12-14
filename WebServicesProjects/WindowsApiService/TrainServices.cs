@@ -57,9 +57,9 @@ namespace WindowsApiService
             Random r = new Random();
             string lat = r.Next(10, 40) + "," + r.Next(10000, 10500);
             string log = r.Next(1, 15) + "," + r.Next(40000, 40500);
-            string alt = r.Next(1, 3500) + "," + r.Next(0, 9);
+            double alt = r.Next(1, 3500);
 
-            _locations.Add(new Location(Convert.ToDouble(lat), Convert.ToDouble(log), Convert.ToDouble(alt)));
+            _locations.Add(new Location(Convert.ToDouble(lat), Convert.ToDouble(log), alt));
 
 
             #region SetInDB
@@ -74,8 +74,8 @@ namespace WindowsApiService
                                         {
                                             {"latitude", Convert.ToDouble(lat)},
                                             {"longitude", Convert.ToDouble(log)},
-                                            {"altitude", Convert.ToDouble(alt)},
-                                            {"date", DateTime.Now.ToString("s")},
+                                            {"altitude", alt},
+                                            {"date", DateTime.Now.ToString("s")}
                                         }
                                         }
                                     };
@@ -86,7 +86,7 @@ namespace WindowsApiService
             #endregion
 
 
-            return new Location(Convert.ToDouble(lat),Convert.ToDouble(log), Convert.ToDouble(alt));
+            return new Location(Convert.ToDouble(lat),Convert.ToDouble(log), alt);
         }
 
         public List<Location> GetTrainLocations()
@@ -94,7 +94,7 @@ namespace WindowsApiService
             if (_locations == null)
             {
                 _locations = new List<Location>();
-                _locations.Add(new Location(0,0,0));
+                _locations.Add(new Location(0,0));
                 return _locations;
             }
             else
