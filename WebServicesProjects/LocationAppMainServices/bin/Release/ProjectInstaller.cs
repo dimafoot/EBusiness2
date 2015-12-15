@@ -15,7 +15,7 @@ namespace LocationAppMainServices
             serviceProcessInstaller = new ServiceProcessInstaller();
             serviceProcessInstaller.Account = ServiceAccount.LocalSystem;
             serviceInstaller = new ServiceInstaller();
-            serviceInstaller.ServiceName = "TrainWcfService";
+            serviceInstaller.ServiceName = "WCFWindowsService";
             Installers.Add(serviceProcessInstaller);
             Installers.Add(serviceInstaller);
         }

@@ -4,7 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Services;
+using System.Xml.Serialization;
 using LocationAppMainWebService.ServiceReference1;
+using LocationAppMainWebService.ServiceReference2;
 using Microsoft.Maps.MapControl.WPF;
 
 namespace LocationAppMainWebService
@@ -16,7 +18,7 @@ namespace LocationAppMainWebService
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
     // Pour autoriser l'appel de ce service Web depuis un script à l'aide d'ASP.NET AJAX, supprimez les marques de commentaire de la ligne suivante. 
-    // [System.Web.Script.Services.ScriptService]
+    [System.Web.Script.Services.ScriptService]
     public class WebServicesWCF : System.Web.Services.WebService
     {
 
@@ -65,6 +67,42 @@ namespace LocationAppMainWebService
             ServiceReference1.ITrainServices client = new TrainServicesClient();
             return client.GetTrainLocations().ToList();
         }
+
+        [WebMethod(EnableSession = true)]
+        [XmlInclude(typeof(PartTimeEmployee)), XmlInclude(typeof(FullTimeEmployee))]
+        public Employee SetDummyEmployeeMongoDB()
+        {
+            ServiceReference2.IEmployeeService client = new EmployeeServiceClient();
+            return client.SaveDummyEmployee();
+        }
+
+        [WebMethod(EnableSession = true)]
+        [XmlInclude(typeof(PartTimeEmployee)), XmlInclude(typeof(FullTimeEmployee))]
+        public List<Employee> GetDummyEmployeesMongoDB()
+        {
+            ServiceReference2.IEmployeeService client = new EmployeeServiceClient();
+            return client.GetDummyEmployees().ToList();
+        }
+
+
+        //[WebMethod(EnableSession = true)]
+        //[XmlInclude(typeof(PartTimeEmployee)), XmlInclude(typeof(FullTimeEmployee))]
+        //public Employee GetEmployeeById(int id)
+        //{
+        //    ServiceReference2.IEmployeeService client = new EmployeeServiceClient();
+        //    return client.GetEmployeeById(id);
+        //}
+
+
+        [WebMethod(EnableSession = true)]
+        [XmlInclude(typeof(PartTimeEmployee)), XmlInclude(typeof(FullTimeEmployee))]
+        public List<Employee> GetEmployeeById(int id)
+        {
+            ServiceReference2.IEmployeeService client = new EmployeeServiceClient();
+            return client.GetEmployeeById(id).ToList();
+        }
+
+
 
     }
 }

@@ -10,32 +10,44 @@ namespace LocationAppMainServices
 {
     public class TrainServicesWindowsService : ServiceBase
     {
-        public ServiceHost serviceHost;
+        public ServiceHost serviceEmployeeHost;
+        public ServiceHost serviceTrainHost;
 
         public TrainServicesWindowsService()
         {
-            ServiceName = "WCFTrainWindowsService";
+            ServiceName = "WCFWindowsService";
         }
 
         public static void Main()
         {
-            ServiceBase.Run(new TrainServicesWindowsService());
+            Run(new TrainServicesWindowsService());
         }
 
         protected override void OnStart(string[] args)
         {
-            if (serviceHost != null)
+            if (serviceTrainHost != null)
             {
-                serviceHost.Close();
+                serviceTrainHost.Close();
             }
-            serviceHost = new ServiceHost(typeof(TrainServices));
-            serviceHost.Open();
+            serviceTrainHost = new ServiceHost(typeof(TrainServices));
+            serviceTrainHost.Open();
+
+            if (serviceEmployeeHost != null)
+            {
+                serviceEmployeeHost.Close();
+            }
+            serviceEmployeeHost = new ServiceHost(typeof(EmployeeService));
+            serviceEmployeeHost.Open();
+
         }
 
         protected override void OnStop()
         {
-            serviceHost.Close();
-            serviceHost = null;
+            serviceTrainHost.Close();
+            serviceTrainHost = null;
+
+            serviceEmployeeHost.Close();
+            serviceEmployeeHost = null;
         }
     }
 }

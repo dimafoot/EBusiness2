@@ -77,3 +77,18 @@ Les paramètres affectés sont :
    logfile = C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\LocationAppMainServices.InstallLog
    assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\LocationAppMainServices.dll
    logtoconsole = 
+Installation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\LocationAppMainServices.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\LocationAppMainServices.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\LocationAppMainServices.exe
+   logtoconsole = 
+Installation du service WCFWindowsService en cours...
+Le service WCFWindowsService a été installé avec succès.
+Création d'une source EventLog WCFWindowsService dans le journal Application...
+Validation de l'assembly 'C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\LocationAppMainServices.exe'.
+Les paramètres affectés sont :
+   i = 
+   logfile = C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\LocationAppMainServices.InstallLog
+   assemblypath = C:\Users\afersys\Documents\MLAMGHARI\EBusiness2\WebServicesProjects\LocationAppMainServices\bin\Release\LocationAppMainServices.exe
+   logtoconsole = 

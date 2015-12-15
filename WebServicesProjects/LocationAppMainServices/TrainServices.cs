@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
@@ -96,8 +97,6 @@ namespace LocationAppMainServices
             return new Location(Convert.ToDouble(lat), Convert.ToDouble(log), alt);
         }
 
-
-
         public Location SetTrainLocation(string ip, string latitude, string longitude, string alt)
         {
             if (_locations == null)
@@ -186,9 +185,18 @@ namespace LocationAppMainServices
 
             #endregion
 
+            #region Notify Admin by sms
+
+            string url = "https://smsapi.free-mobile.fr/sendmsg?user=14958283&pass=uJSoPtJx9RqbYi&msg=Nouvelle%20Localisation%20depuis%20"+ city + "%20à%20" + DateTime.Now;
+
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+            #endregion
+
             return new Location(Convert.ToDouble(latitude), Convert.ToDouble(longitude));
         }
-
 
         public List<Location> GetTrainLocations()
         {

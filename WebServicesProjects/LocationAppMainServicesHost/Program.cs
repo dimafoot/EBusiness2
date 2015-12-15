@@ -11,12 +11,21 @@ namespace LocationAppMainServicesHost
     {
         static void Main()
         {
-            using (ServiceHost host = new ServiceHost(typeof(LocationAppMainServices.TrainServices)))
+            using (ServiceHost host = new ServiceHost(typeof(LocationAppMainServices.TrainServices)), host2 = new ServiceHost(typeof(LocationAppMainServices.EmployeeService)))
             {
                 host.Open();
                 Console.WriteLine("Host started @ " + DateTime.Now + " with the base address :" + host.BaseAddresses[0]);
+                host2.Open();
+                Console.WriteLine("Host started @ " + DateTime.Now + " with the base address :" + host2.BaseAddresses[0]);
                 Console.Read();
             }
+
+            //using (ServiceHost host2 = new ServiceHost(typeof(LocationAppMainServices.EmployeeService)))
+            //{
+            //    host2.Open();
+            //    Console.WriteLine("Host started @ " + DateTime.Now + " with the base address :" + host2.BaseAddresses[0]);
+            //    Console.Read();
+            //}
         }
     }
 }
